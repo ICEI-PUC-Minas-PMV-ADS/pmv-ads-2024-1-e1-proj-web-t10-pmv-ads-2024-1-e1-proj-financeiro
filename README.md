@@ -1,25 +1,28 @@
-# Título do Projeto
+# Projeto Financeiro
 
-`CURSO`
+`Analise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End - Turma 10`
 
-`SEMESTRE`
+`Eixo 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O projeto no qual estamos desenvolvendo busca auxiliar as pessoas a terem um controle maior sobre as suas finanças pessoais, 
+visto que muitos se encontram endividados, devido a nao possuirem conhecimentos ou utilizarem ferramentas muita das vezes complexas.
+Para isso, será desenvolvido uma aplicação Web Front-End simple e intuitivo, no qual o usuario poderá inserir suas transações financeiras
+afim de se manter controlado.   
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Ana Carolina Alves de Sousa
+* Angélica Maria Nunes de Aguiar
+* Elenice Aparecida Silva
+* Lucas Santiago Plínio
+* Rafael Junior Martins
+* Yasmin Maia Trindade
 
 ## Orientador
 
-* Nome completo do professor
+* Humberto Azevedo Nigri do Carmo
 
 # Documentação
 
