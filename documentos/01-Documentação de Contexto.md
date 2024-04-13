@@ -9,10 +9,14 @@ Portanto, a falta de sistemas adaptados às necessidades das pessoas está no ce
 Com o lançamento da Aplicação Web de Controle Financeiro, pretendemos proporcionar uma forma prática para permitir que as pessoas gerenciem suas finanças de forma mais consciente e eficaz.
 
 ## Objetivos
+
 O objetivo geral deste projeto é auxiliar o usuário a gerenciar suas finanças, de uma maneira que ele consiga administrar os gastos e os ganhos com uma descrição completa de datas e valores. Além de exibir o saldo, com todos os ganhos e perdas. Este projeto visa oferecer ao usuário sua estabilidade e organização financeira. 
 Como objetivos específicos, podemos destacar: 
+
 •	Oferecer uma plataforma de uso gratuito que visa auxiliar o usuário a gerenciar sua vida financeira. 
+
 •	Monitorar e registrar todas as transações financeiras. 
+
 •	Evitar que o usuário passe por problemas como dívidas e gasto excessivo de seu dinheiro.
 
  
