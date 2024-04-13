@@ -1,28 +1,23 @@
 # Introdução
-
 A gestão financeira é um desafio comum na vida cotidiana, envolvendo contas de casa, farmácia, alimentação, transporte, entre outros aspectos. Administrar o dinheiro pode se tornar difícil, levando a gastos excessivos e até mesmo a dívidas.
-
 Portanto, propomos o desenvolvimento de uma aplicação web front-end para auxiliar as pessoas a terem um melhor controle sobre suas finanças. Seria uma ferramenta simples e objetiva, permitindo visualizar com clareza despesas e receitas, promovendo assim uma gestão financeira mais eficaz.
-
-
 
 ## Problema
 Atualmente, muitas pessoas enfrentam dificuldades no controle de suas finanças. Com diversas despesas mensais, é comum perder o controle e não ter ideia para onde está indo o seu dinheiro. Isto pode levar a problemas como falta de planejamento e acúmulo de dívidas.
-
 A ausência de ferramentas específicas pode agravar a situação.
 Portanto, a falta de sistemas adaptados às necessidades das pessoas está no centro do problema. A criação de um aplicativo web exclusivo ajudará a preencher essa lacuna, fornecendo uma maneira eficiente de controlar as finanças e evitar vários problemas financeiros.
-
 Com o lançamento da Aplicação Web de Controle Financeiro, pretendemos proporcionar uma forma prática para permitir que as pessoas gerenciem suas finanças de forma mais consciente e eficaz.
 
-
-
-
-
 ## Objetivos
+O objetivo geral deste projeto é auxiliar o usuário a gerenciar suas finanças, de uma maneira que ele consiga administrar os gastos e os ganhos com uma descrição completa de datas e valores. Além de exibir o saldo, com todos os ganhos e perdas. Este projeto visa oferecer ao usuário sua estabilidade e organização financeira. 
+Como objetivos específicos, podemos destacar: 
+•	Oferecer uma plataforma de uso gratuito que visa auxiliar o usuário a gerenciar sua vida financeira. 
+•	Monitorar e registrar todas as transações financeiras. 
+•	Evitar que o usuário passe por problemas como dívidas e gasto excessivo de seu dinheiro.
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
  
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+ 
+
 
 ## Justificativa
 
