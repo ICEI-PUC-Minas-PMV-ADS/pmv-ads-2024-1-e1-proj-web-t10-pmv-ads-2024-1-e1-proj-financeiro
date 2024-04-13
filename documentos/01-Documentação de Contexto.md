@@ -1,6 +1,10 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+A gestão financeira é um desafio comum na vida cotidiana, envolvendo contas de casa, farmácia, alimentação, transporte, entre outros aspectos. Administrar o dinheiro pode se tornar difícil, levando a gastos excessivos e até mesmo a dívidas.
+
+Portanto, propomos o desenvolvimento de uma aplicação web front-end para auxiliar as pessoas a terem um melhor controle sobre suas finanças. Seria uma ferramenta simples e objetiva, permitindo visualizar com clareza despesas e receitas, promovendo assim uma gestão financeira mais eficaz.
+
+
 
 ## Problema
 [Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
