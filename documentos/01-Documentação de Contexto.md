@@ -29,13 +29,14 @@ Segundo (DIAS et al, 2019), possuir uma boa gestão de finanças pessoais é rel
 
 
 ## Público-Alvo
+Estipulou-se como público-alvo para este projeto indivíduos de todas as idades que desejam organizar suas finanças pessoais, desde jovens adultos que estão começando a gerenciar suas finanças até idosos que desejam ter um controle melhor sobre suas despesas e receitas. Alguns exemplos: 
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
+1.	Profissionais autônomos: Pessoas que trabalham por conta própria muitas vezes têm fluxos de renda irregulares e precisam de uma ferramenta para acompanhar suas finanças de perto e garantir uma boa gestão do dinheiro. 
 
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
+2.	Pequenos empresários: Empreendedores que administram seus próprios negócios podem se beneficiar de uma aplicação financeira para monitorar as despesas, receitas e lucros da empresa. 
 
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
+3.	Estudantes: Jovens que estão começando a aprender sobre finanças e querem desenvolver hábitos saudáveis de gestão de dinheiro podem usar essas aplicações para aprender e praticar. 
 
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
+4.	Famílias: Grupos familiares que desejam gerenciar despesas domésticas e planejar orçamentos para necessidades comuns, como educação e lazer, através de uma aplicação de controle financeiro.
+
 
