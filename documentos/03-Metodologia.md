@@ -14,7 +14,7 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 - Scrum Master: Angélica Aguiar 
 - Product Owner: Lucas Silva
 - Equipe de Desenvolvimento: Elenice Silva; Yasmin Trindade; Rafael Martins; Lucas Silva, Angélica Aguiar e Ana Carolina Sousa
-- Equipe de Design: Yasmin Trindade; Rafael Martins e Ana Carolina Sousa
+- Equipe de Design: Yasmin Trindade; Rafael Martins e Ana Carolina Sousa.
 
 ### Processo
 
