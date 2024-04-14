@@ -1,9 +1,16 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+[A gestão financeira é um desafio comum na vida cotidiana, envolvendo contas de casa, farmácia, alimentação, transporte, entre outros aspectos. Administrar o dinheiro pode se tornar difícil, levando a gastos excessivos e até mesmo a dívidas.
+
+Portanto, propomos o desenvolvimento de uma aplicação web front-end para auxiliar as pessoas a terem um melhor controle sobre suas finanças. Seria uma ferramenta simples e objetiva, permitindo visualizar com clareza despesas e receitas, promovendo assim uma gestão financeira mais eficaz.]
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
+[Atualmente, muitas pessoas enfrentam dificuldades no controle de suas finanças. Com diversas despesas mensais, é comum perder o controle e não ter ideia para onde está indo o seu dinheiro. Isto pode levar a problemas como falta de planejamento e acúmulo de dívidas.
+
+A ausência de ferramentas específicas pode agravar a situação.
+Portanto, a falta de sistemas adaptados às necessidades das pessoas está no centro do problema. A criação de um aplicativo web exclusivo ajudará a preencher essa lacuna, fornecendo uma maneira eficiente de controlar as finanças e evitar vários problemas financeiros.
+
+Com o lançamento da Aplicação Web de Controle Financeiro, pretendemos proporcionar uma forma prática para permitir que as pessoas gerenciem suas finanças de forma mais consciente e eficaz.]
 
 Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 

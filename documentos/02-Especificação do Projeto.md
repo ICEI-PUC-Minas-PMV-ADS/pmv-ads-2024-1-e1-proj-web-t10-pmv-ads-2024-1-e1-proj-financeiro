@@ -45,7 +45,7 @@
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  ...                    | ...   | 
+| RF-01 |  A aplicação deverá permitir ao usuário inserir seus registros de transações financeiras                    | ALTA   | 
 |  ...  |  ...                    | ...   |
 
 **Prioridade: Alta / Média / Baixa. 
