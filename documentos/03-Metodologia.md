@@ -78,13 +78,13 @@ Utilização do quadro KANBAN, para acompanhamento da evolução da Sprint.
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
-| AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
-|-------------------------------------|------------------------------------|----------------------------------------|
+| AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                                                                    |
+|-------------------------------------|------------------------------------|-----------------------------------------------------------------------------------|
 | Repositório de código fonte         | GitHub                             | [http://....   ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-financeiro/tree/main/codigo-fonte)                         |
-| Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de Interface                | Marvel                             | [http://.... ](https://marvelapp.com/whiteboard/Kiobq1HwLO28QQSColn0) |
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
-| Hospedagem                          | GitHub Pages                       | http://....                            |
+| Documentos do projeto               | GitHub                             | http://....                                                                        |
+| Projeto de Interface                | Marvel                             | [http://.... ](https://marvelapp.com/whiteboard/Kiobq1HwLO28QQSColn0)              |
+| Gerenciamento do Projeto            | GitHub Projects                    | http://....                                                                        |
+| Hospedagem                          | GitHub Pages                       | http://....                                                                        |
 
 
 ### Estratégia de Organização de Codificação 
