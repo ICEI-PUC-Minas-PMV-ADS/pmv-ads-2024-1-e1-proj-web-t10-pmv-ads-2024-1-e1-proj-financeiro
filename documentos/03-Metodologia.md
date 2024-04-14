@@ -74,7 +74,7 @@ Utilização do quadro KANBAN, para acompanhamento da evolução da Sprint.
   
 ### Ferramentas
 
-As ferramentas utilizadas para interação e comunicação da equipe são: Whatssap; Microsoft Teams, bem como as plataformas listadas a seguir.
+As ferramentas utilizadas para interação e comunicação da equipe são: Whatssap; Microsoft Teams, bem como as listadas a seguir para desenvolvimento do projeto.
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
