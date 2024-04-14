@@ -21,16 +21,12 @@ Como objetivos específicos, podemos destacar:
 •	Evitar que o usuário passe por problemas como dívidas e gasto excessivo de seu dinheiro.
 
  
- 
-
 
 ## Justificativa
+Em nosso dia a dia, estamos constantemente lidando com decisões financeiras, de pequena ou grande importância, desde gastos com supérfluos a contas fixas (aluguel, internet, mensalidades...), em meio a isto, o controle das finanças pode se perder e se tornar, a longo prazo, um grande problema. 
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
+Segundo (DIAS et al, 2019), possuir uma boa gestão de finanças pessoais é relevante para quem deseja educar-se financeiramente, e assim manter o equilíbrio entre as receitas e as despesas, garantindo uma relação equilibrada com o dinheiro, e se possível, livrar-se de dívidas ou finanças desordenadas.
 
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
-
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
