@@ -1,7 +1,7 @@
 
 # Metodologia
 
-Esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
+A metodologia para projetos de aplicação web é essencial para garantir um desenvolvimento eficiente e organizado. Geralmente, adota-se a divisão de tarefas entre os membros da equipe, que trabalham no projeto dividido em sprints curtas e iterativas. Isso permite uma entrega incremental de funcionalidades, além de facilitar a adaptação a mudanças nos requisitos. Embora a equipe se encontre em adaptação e possa ser necessário algumas ações para adequação da metodologia, a interação e trabalho da equipe tem se mostrado eficazes. Com as correções adequadas, é possível maximizar a colaboração da equipe, otimizar recursos e alcançar resultados satisfatórios dentro dos prazos estabelecidos.
 
 
 ## Gerenciamento de Projeto
