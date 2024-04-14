@@ -13,7 +13,7 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 
 - Scrum Master: Angélica Aguiar 
 - Product Owner: Lucas Silva
-- Equipe de Desenvolvimento: Elenice Silva; Yasmin Trindade; Rafael Martins; Lucas Plínio, Angélica Aguiar e Ana Carolina Sousa
+- Equipe de Desenvolvimento: Elenice Silva; Yasmin Trindade; Rafael Martins; Lucas Silva, Angélica Aguiar e Ana Carolina Sousa
 - Equipe de Design: Yasmin Trindade; Rafael Martins e Ana Carolina Sousa
 
 ### Processo
@@ -52,7 +52,7 @@ Essas são as etapas fundamentais do Scrum, mas é importante notar que o Scrum 
 Utilização do quadro KANBAN, para acompanhamento da evolução da Sprint.
 - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
 - To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
-- In Progress: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
+- In Progress: Quando uma tarefa é iniciada, ela é movida para esta categoria. 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
 ### Etiquetas
