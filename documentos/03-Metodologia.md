@@ -74,7 +74,7 @@ Utilização do quadro KANBAN, para acompanhamento da evolução da Sprint.
   
 ### Ferramentas
 
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
+As ferramentas utilizadas para interação e comunicação da equipe são: Whatssap; Microsoft Teams, bem como as plataformas listadas a seguir.
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
@@ -84,7 +84,8 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Documentos do projeto               | GitHub                             | http://....                                                                        |
 | Projeto de Interface                | Marvel                             | [http://.... ](https://marvelapp.com/whiteboard/Kiobq1HwLO28QQSColn0)              |
 | Gerenciamento do Projeto            | GitHub Projects                    | http://....                                                                        |
-| Hospedagem                          | GitHub Pages                       | http://....                                                                        |
+| Hospedagem 
+| Lousa interativa digital            |Miro                                | http://.... ](https://miro.com/app/board/uXjVKVpe4mU=/)                                                                   |
 
 
 ### Estratégia de Organização de Codificação 
