@@ -16,25 +16,44 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 - Equipe de Desenvolvimento: Elenice Silva; Yasmin Trindade; Rafael Martins; Lucas Plínio, Angélica Aguiar e Ana Carolina Sousa
 - Equipe de Design: Yasmin Trindade; Rafael Martins e Ana Carolina Sousa
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
 ### Processo
 
-[Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe poderá fazer uso de ferramentas on-line (GitHub Project ou Trello) para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir despois das informações uma imagem do Kanban do projeto.]
+O Scrum é um framework ágil que organiza o processo de desenvolvimento de software em ciclos iterativos e incrementais, chamados de Sprints. Aqui estão as etapas principais da implementação do Scrum:
+
+Planejamento inicial:
+
+Compreensão dos princípios e valores do Scrum.
+Identificação da equipe Scrum, incluindo Scrum Master, Product Owner e membros do Time de Desenvolvimento.
+Estabelecimento de metas e objetivos claros para o projeto.
+Criação do Product Backlog:
+
+O Product Owner (PO) trabalha com stakeholders para identificar e priorizar os requisitos do projeto.
+Os requisitos são registrados no Product Backlog, uma lista ordenada de funcionalidades, correções de bugs, melhorias etc., necessárias para o produto.
+Planejamento da Sprint:
+
+O Time de Desenvolvimento seleciona um conjunto de itens do Product Backlog para serem implementados durante a próxima Sprint.
+Durante o planejamento da Sprint, as tarefas são desdobradas em unidades menores e estimadas.
+Realização da Sprint:
+
+A Sprint é um período de tempo fixo, geralmente de 2 a 4 semanas, onde o Time de Desenvolvimento trabalha para implementar as tarefas selecionadas.
+As atividades diárias são realizadas na forma de Daily Scrums, reuniões curtas (cerca de 15 minutos) onde os membros da equipe discutem o progresso, os obstáculos e planejam as próximas atividades.
+Revisão da Sprint:
+
+Ao final de cada Sprint, é realizada uma reunião de revisão, onde o Time de Desenvolvimento demonstra o trabalho realizado ao Product Owner e outros stakeholders.
+Feedback é coletado e ajustes são feitos no Product Backlog conforme necessário.
+Retrospectiva da Sprint:
+
+Após a revisão, a equipe realiza uma retrospectiva da Sprint para identificar o que funcionou bem, o que pode ser melhorado e quais ações devem ser tomadas para melhorar o processo na próxima Sprint.
+Repetição:
+
+O ciclo se repete com a seleção de novos itens do Product Backlog para a próxima Sprint, começando novamente pelo planejamento da Sprint.
+Essas são as etapas fundamentais do Scrum, mas é importante notar que o Scrum é altamente adaptável e pode ser ajustado de acordo com as necessidades específicas de cada equipe e projeto.
+
+Utilização do quadro KANBAN, para acompanhamento da evolução da Sprint.
 - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
 - To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
 - Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
-
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
-
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
