@@ -80,7 +80,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
+| Repositório de código fonte         | GitHub                             | [http://....   ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-financeiro/tree/main/codigo-fonte)                         |
 | Documentos do projeto               | GitHub                             | http://....                            |
 | Projeto de Interface                | Marvel                             | [http://.... ](https://marvelapp.com/whiteboard/Kiobq1HwLO28QQSColn0) |
 | Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
