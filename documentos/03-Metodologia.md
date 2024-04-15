@@ -55,6 +55,12 @@ Utilização do quadro KANBAN, para acompanhamento da evolução da Sprint.
 - In Progress: Quando uma tarefa é iniciada, ela é movida para esta categoria. 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
+<div align="center">
+ 
+![Screen de Tela de login](img/kanban.png)
+
+</div>
+
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
 
