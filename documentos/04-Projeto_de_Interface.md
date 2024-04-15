@@ -8,13 +8,17 @@ Apresentação das principais interfaces da plataforma, demonstrando como elas f
 
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de navegação do usuário na aplicação. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
-[Adicione aqui o diagrama de fluxo de usuário da sua aplicação.]
+<div align="center">
+ 
+<h3><ins> Fluxograma </ins></h3>
+ 
+![Screen do fluxograma](img/fluxograma.png)
 
-> **Links Úteis**:
->
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+</div>
+
+* **Fluxograma:** Um fluxograma é uma representação gráfica de um processo ou sistema, usando símbolos padronizados para mostrar as etapas sequenciais e as relações entre elas.A cor azul representa a tela inicial,a cor amarela,as páginas em qual o usuário irá interagir.As formas na cor preta,representam a validação.Na cor verde,página principal.E por último,logout. 
+
+<br> 
 
 ## Wireframes
 
@@ -104,3 +108,4 @@ As telas descritas a seguir fazem parte de um sistema de controle financeiro, qu
 - **Tela de Atualização de E-mail:** Nesta tela, o cliente poderá efetuar a atualização do email cadastrado.
 
 <br>
+

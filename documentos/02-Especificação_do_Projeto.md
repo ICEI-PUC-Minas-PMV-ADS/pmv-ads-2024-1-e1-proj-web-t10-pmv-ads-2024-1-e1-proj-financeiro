@@ -2,38 +2,82 @@
 
 ## Perfis de Usuários
 
-[Enumere e faça o detalhamento dos perfis de usuários. Utilize o modelo de tabela abaixo para sintetizá-los.]
-
 <table>
-<tbody>
+ <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil: Profissional autônomo/pequenos empresários  </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">  Pessoa autônoma que possui loja online de artigos artesanais.  </td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>
+1. Monitorar entradas e saídas. 
+2. Método de pagamento (dinheiro, cartão, pix...) 
+3. Registrar e categorizar todas as despesas relacionadas ao negócio. 
+4. Estabelecer metas financeiras.
+</td>
 </tr>
-</tbody>
+ </tbody>
 </table>
+
+<table>
+ <tbody>
+<tr align=center>
+<th colspan="2">Perfil: Estudantes </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px"> Aluno matriculado no ensino superior privado </td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>
+1.	Monitorar entradas e saídas.
+2.	Acompanhar contas fixas (mensalidade, academia...)
+3.	Acompanhar despesas variáveis (plataformas digitais, delivery...)
+
+</td>
+</tr>
+ </tbody>
+</table>
+
+<table>
+ <tbody>
+<tr align=center>
+<th colspan="2">Perfil: Famílias  </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">  Famílias compostas por duas ou mais pessoas  </td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>
+1. Monitorar entradas e saídas. 
+2. Acompanhar contas fixas (aluguel, mercado, internet...) 
+3. Acompanhar despesas variáveis (lazer, delivery, vestuário...) 
+
+</td>
+</tr>
+ </tbody>
+</table>
+ 
+ 
 
 
 ## Histórias de Usuários
 
-[Apresente aqui as histórias de usuários que são relevantes para o projeto da solução.]
 
-> **Link Útil**:
-> - [Como escrever boas histórias de usuário](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
-[Utilize o modelo de tabela abaixo para apresentar as histórias de usuários.]
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
+| Como profissional autônomo.|Eu preciso ter o controle de entradas e saídas financeiras.| Para ser capaz de cobrir todas as despesas e iniciar reserva financeira.         
+| Como pequeno empresário.   |Preciso monitorar o ativo e passivo de minha microempresa em tempo real.| Para ter maior efetividade na tomada de decisão que resultará em redução de custos e realização de novos investimentos.                                            
+| Como estudante.           |Preciso de organização financeira pessoal.|Para garantir que os gastos não sejam superiores a renda mensal.                               
+| Como arrimo de família (Pai e/ou mãe).| Preciso manter os gastos e despesas em equilíbrio|Para arcar com todas as despesas familiares e poupar para pagamento de dívidas antigas.                           
 
 ## Requisitos do Projeto
 

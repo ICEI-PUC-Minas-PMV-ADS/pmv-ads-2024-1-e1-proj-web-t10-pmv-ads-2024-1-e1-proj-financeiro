@@ -1,13 +1,11 @@
 
 # Metodologia
 
-Esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
+A metodologia para projetos de aplicação web é essencial para garantir um desenvolvimento eficiente e organizado. Geralmente, adota-se a divisão de tarefas entre os membros da equipe, que trabalham no projeto dividido em sprints curtas e iterativas. Isso permite uma entrega incremental de funcionalidades, além de facilitar a adaptação a mudanças nos requisitos. Embora a equipe se encontre em adaptação e possa ser necessário algumas ações para adequação da metodologia, a interação e trabalho da equipe tem se mostrado eficazes. Com as correções adequadas, é possível maximizar a colaboração da equipe, otimizar recursos e alcançar resultados satisfatórios dentro dos prazos estabelecidos.
 
 
 ## Gerenciamento de Projeto
-A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois como citam Amaral, Fleury e Isoni (2019, p. 68), seus benefícios são a
-
-“visão clara dos resultados a entregar; ritmo e disciplina necessários à execução; definição de papéis e responsabilidades dos integrantes do projeto (Scrum Owner, Scrum Master e Team); empoderamento dos membros da equipe de projetos para atingir o desafio; conhecimento distribuído e compartilhado de forma colaborativa; ambiência favorável para crítica às ideias e não às pessoas.”
+A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois como citam Amaral, Fleury e Isoni (2019, p. 68), seus benefícios são a “visão clara dos resultados a entregar; ritmo e disciplina necessários à execução; definição de papéis e responsabilidades dos integrantes do projeto (Scrum Owner, Scrum Master e Team); empoderamento dos membros da equipe de projetos para atingir o desafio; conhecimento distribuído e compartilhado de forma colaborativa; ambiência favorável para crítica às ideias e não às pessoas.”
 
 ### Divisão de Papéis
 
@@ -80,17 +78,18 @@ Utilização do quadro KANBAN, para acompanhamento da evolução da Sprint.
   
 ### Ferramentas
 
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
+As ferramentas utilizadas para interação e comunicação da equipe são: Whatsapp; Microsoft Teams, bem como as listadas a seguir para desenvolvimento do projeto.
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
-| AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
-|-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de Interface                | Figma                              | http://....                            |
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
-| Hospedagem                          | GitHub Pages                       | http://....                            |
+| AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                                                                    |
+|-------------------------------------|------------------------------------|-----------------------------------------------------------------------------------|
+| Repositório de código fonte         | GitHub                             | [http://....   ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-financeiro/tree/main/codigo-fonte)                         |
+| Documentos do projeto               | GitHub                             | http://....                                                                        |
+| Projeto de Interface                | Marvel                             | [http://.... ](https://marvelapp.com/whiteboard/Kiobq1HwLO28QQSColn0)              |
+| Gerenciamento do Projeto            | GitHub Projects                    | http://....                                                                        |
+| Hospedagem 
+| Lousa interativa digital            |Miro                                | http://.... ](https://miro.com/app/board/uXjVKVpe4mU=/)                                                                   |
 
 
 ### Estratégia de Organização de Codificação 
