@@ -11,9 +11,9 @@ As páginas terão como elementos padrões o menu de navegação, o header e o f
 O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-financeiro/tree/main/codigo-fonte">aqui</a>. As imagens e ícones utilizados no projeto estão disponíveis <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-financeiro/tree/main/documentos/img">aqui</a>.
 
  <h3>Tela de Login</h3>
- <br>
-Permite o usuário a inserir seus dados para entrar em sua conta.
-<br>
+
+<br>Permite o usuário a inserir seus dados para entrar em sua conta.<br>
+
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-financeiro/blob/main/documentos/img/Tela_login2.png">
   <figcaption> Figura 1 - Tela de Login
