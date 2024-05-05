@@ -19,7 +19,7 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
   <figcaption> Figura 1 - Tela de Login
 </figure> 
 
- <h3>Tela de Cadastro</h3>
+ <h4>Tela de Cadastro</h4>
 
 <br>Permite o usuário a inserir seus dados para criação de conta.<br>
 
