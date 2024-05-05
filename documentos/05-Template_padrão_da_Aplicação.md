@@ -19,6 +19,15 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
   <figcaption> Figura 1 - Tela de Login
 </figure> 
 
+ <h3>Tela de Cadastro</h3>
+
+<br>Permite o usuário a inserir seus dados para criação de conta.<br>
+
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-financeiro/blob/main/documentos/img/Tela_cadastro2.png">
+  <figcaption> Figura 1 - Tela de Cadastro
+</figure> 
+
             
 
 > **Links Úteis**:
