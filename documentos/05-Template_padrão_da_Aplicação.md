@@ -28,6 +28,15 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
   <figcaption> Figura 2 - Tela de Cadastro
 </figure> 
 
+ <h3>Tela Principal</h3>
+
+<br>Permite o usuário verificar suas transações,adicionar e modificar.<br>
+
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-financeiro/blob/main/documentos/img/Tela_principal2.png">
+  <figcaption> Figura 3 - Tela Principal
+</figure> 
+
             
 
 > **Links Úteis**:
