@@ -6,23 +6,23 @@
 
 `Eixo 1`
 
-O projeto no qual estamos desenvolvendo busca auxiliar as pessoas a terem um controle maior sobre as suas finanças pessoais, 
+O projeto no qual estamos desenvolvendo busca auxiliar as pessoas a terem um controle maior sobre as suas finanças pessoais,
 visto que muitos se encontram endividados, devido a nao possuirem conhecimentos ou utilizarem ferramentas muita das vezes complexas.
 Para isso, será desenvolvido uma aplicação Web Front-End simple e intuitivo, no qual o usuario poderá inserir suas transações financeiras
-afim de se manter controlado.   
+afim de se manter controlado.
 
 ## Integrantes
 
-* Ana Carolina Alves de Sousa
-* Angélica Maria Nunes de Aguiar
-* Elenice Aparecida Silva
-* Lucas Santiago Plínio
-* Rafael Junior Martins
-* Yasmin Maia Trindade
+- Ana Carolina Alves de Sousa
+- Angélica Maria Nunes de Aguiar
+- Elenice Aparecida Silva
+- Lucas Santiago Plínio
+- Rafael Junior Martins
+- Yasmin Maia Trindade
 
 ## Orientador
 
-* Humberto Azevedo Nigri do Carmo
+- Humberto Azevedo Nigri do Carmo
 
 # Documentação
 
@@ -40,12 +40,12 @@ afim de se manter controlado.
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+- Insira o endereço eletrônico público de acesso ao conteúdo publicado.
 
 # Código-Fonte
 
-* <a href="codigo-fonte/README.md">Código Fonte</a>
+- <a href="codigo-fonte/README.md">Código Fonte</a>
 
 # Apresentação
 
-* <a href="apresentacao/README.md">Apresentação do Projeto</a>
+- <a href="apresentacao/README.md">Apresentação do Projeto</a>
