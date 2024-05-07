@@ -1,42 +1,63 @@
 
 # Metodologia
 
-Esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
+A metodologia para projetos de aplicação web é essencial para garantir um desenvolvimento eficiente e organizado. Geralmente, adota-se a divisão de tarefas entre os membros da equipe, que trabalham no projeto dividido em sprints curtas e iterativas. Isso permite uma entrega incremental de funcionalidades, além de facilitar a adaptação a mudanças nos requisitos. Embora a equipe se encontre em adaptação e possa ser necessário algumas ações para adequação da metodologia, a interação e trabalho da equipe tem se mostrado eficazes. Com as correções adequadas, é possível maximizar a colaboração da equipe, otimizar recursos e alcançar resultados satisfatórios dentro dos prazos estabelecidos.
 
 
 ## Gerenciamento de Projeto
-A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois como citam Amaral, Fleury e Isoni (2019, p. 68), seus benefícios são a
-
-“visão clara dos resultados a entregar; ritmo e disciplina necessários à execução; definição de papéis e responsabilidades dos integrantes do projeto (Scrum Owner, Scrum Master e Team); empoderamento dos membros da equipe de projetos para atingir o desafio; conhecimento distribuído e compartilhado de forma colaborativa; ambiência favorável para crítica às ideias e não às pessoas.”
+A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois como citam Amaral, Fleury e Isoni (2019, p. 68), seus benefícios são a “visão clara dos resultados a entregar; ritmo e disciplina necessários à execução; definição de papéis e responsabilidades dos integrantes do projeto (Scrum Owner, Scrum Master e Team); empoderamento dos membros da equipe de projetos para atingir o desafio; conhecimento distribuído e compartilhado de forma colaborativa; ambiência favorável para crítica às ideias e não às pessoas.”
 
 ### Divisão de Papéis
 
-A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
-[Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
-- Scrum Master: Nome de um membro da equipe, principal responsável pela gestão do projeto.
-- Product Owner: Nome de um membro da equipe, representante dos interesses de todos os envolvidos (Stakeholders), define as funcionalidades do produto e prioriza os itens de Product Backlog.
-- Equipe de Desenvolvimento: Nomes de todos os membros da equipe, pois todos os membros deverão implementar uma tela/funcionalidade.
-- Equipe de Design: Nomes dos membros da equipe que trabalharão com design.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+- Scrum Master: Angélica Aguiar 
+- Product Owner: Lucas Silva
+- Equipe de Desenvolvimento: Elenice Silva; Yasmin Trindade; Rafael Martins; Lucas Silva, Angélica Aguiar e Ana Carolina Sousa
+- Equipe de Design: Yasmin Trindade; Rafael Martins e Ana Carolina Sousa.
 
 ### Processo
 
-[Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe poderá fazer uso de ferramentas on-line (GitHub Project ou Trello) para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir despois das informações uma imagem do Kanban do projeto.]
+O Scrum é um framework ágil que organiza o processo de desenvolvimento de software em ciclos iterativos e incrementais, chamados de Sprints. Aqui estão as etapas principais da implementação do Scrum:
+
+Planejamento inicial:
+
+Compreensão dos princípios e valores do Scrum.
+Identificação da equipe Scrum, incluindo Scrum Master, Product Owner e membros do Time de Desenvolvimento.
+Estabelecimento de metas e objetivos claros para o projeto.
+Criação do Product Backlog:
+
+O Product Owner (PO) trabalha com stakeholders para identificar e priorizar os requisitos do projeto.
+Os requisitos são registrados no Product Backlog, uma lista ordenada de funcionalidades, correções de bugs, melhorias etc., necessárias para o produto.
+Planejamento da Sprint:
+
+O Time de Desenvolvimento seleciona um conjunto de itens do Product Backlog para serem implementados durante a próxima Sprint.
+Durante o planejamento da Sprint, as tarefas são desdobradas em unidades menores e estimadas.
+Realização da Sprint:
+
+A Sprint é um período de tempo fixo, geralmente de 2 a 4 semanas, onde o Time de Desenvolvimento trabalha para implementar as tarefas selecionadas.
+As atividades diárias são realizadas na forma de Daily Scrums, reuniões curtas (cerca de 15 minutos) onde os membros da equipe discutem o progresso, os obstáculos e planejam as próximas atividades.
+Revisão da Sprint:
+
+Ao final de cada Sprint, é realizada uma reunião de revisão, onde o Time de Desenvolvimento demonstra o trabalho realizado ao Product Owner e outros stakeholders.
+Feedback é coletado e ajustes são feitos no Product Backlog conforme necessário.
+Retrospectiva da Sprint:
+
+Após a revisão, a equipe realiza uma retrospectiva da Sprint para identificar o que funcionou bem, o que pode ser melhorado e quais ações devem ser tomadas para melhorar o processo na próxima Sprint.
+Repetição:
+
+O ciclo se repete com a seleção de novos itens do Product Backlog para a próxima Sprint, começando novamente pelo planejamento da Sprint.
+Essas são as etapas fundamentais do Scrum, mas é importante notar que o Scrum é altamente adaptável e pode ser ajustado de acordo com as necessidades específicas de cada equipe e projeto.
+
+Utilização do quadro KANBAN, para acompanhamento da evolução da Sprint.
 - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
 - To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
-- Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
+- In Progress: Quando uma tarefa é iniciada, ela é movida para esta categoria. 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+<div align="center">
+ 
+![Screen de Tela de login](img/kanban.png)
 
+</div>
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
@@ -57,17 +78,18 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
   
 ### Ferramentas
 
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
+As ferramentas utilizadas para interação e comunicação da equipe são: Whatsapp; Microsoft Teams, bem como as listadas a seguir para desenvolvimento do projeto.
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
-| AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
-|-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de Interface                | Figma                              | http://....                            |
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
-| Hospedagem                          | GitHub Pages                       | http://....                            |
+| AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                                                                    |
+|-------------------------------------|------------------------------------|-----------------------------------------------------------------------------------|
+| Repositório de código fonte         | GitHub                             | [http://....   ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-financeiro/tree/main/codigo-fonte)                         |
+| Documentos do projeto               | GitHub                             | http://....                                                                        |
+| Projeto de Interface                | Marvel                             | [http://.... ](https://marvelapp.com/whiteboard/Kiobq1HwLO28QQSColn0)              |
+| Gerenciamento do Projeto            | GitHub Projects                    | http://....                                                                        |
+| Hospedagem 
+| Lousa interativa digital            |Miro                                | http://.... ](https://miro.com/app/board/uXjVKVpe4mU=/)                                                                   |
 
 
 ### Estratégia de Organização de Codificação 
