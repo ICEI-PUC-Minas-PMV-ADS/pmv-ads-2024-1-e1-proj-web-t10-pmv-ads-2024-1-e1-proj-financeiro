@@ -5,7 +5,7 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 As páginas terão como elementos padrões o menu de navegação, o header e o footer, além dos elementos de identidade visual citados abaixo:
 
 <ul>
-<li>Cores: RGB: #6C63FF,#FFFFFF,#38A573,#0FA958,#F24E1E,#ECEBF1;</li>
+<li>Cores:#6C63FF,#FFFFFF,#38A573,#0FA958,#F24E1E,#ECEBF1;</li>
 <li>Font-family:Inter,Bold,Regular,Medium.</li>
 <li>Font-size:20px,22px,24px. </li>
 </ul>
