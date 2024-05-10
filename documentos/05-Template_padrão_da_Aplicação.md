@@ -19,7 +19,7 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-financeiro/blob/main/documentos/img/Tela_login2.png">
   <figcaption> Figura 1 - Tela de Login
-</figure> 
+</figure>
 
  <h3>Tela de Cadastro</h3>
 
@@ -28,7 +28,7 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-financeiro/blob/main/documentos/img/Tela_cadastro2.png">
   <figcaption> Figura 2 - Tela de Cadastro
-</figure> 
+</figure>
 
  <h3>Tela Principal</h3>
 
@@ -37,9 +37,7 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-financeiro/blob/main/documentos/img/Tela_principal2.png">
   <figcaption> Figura 3 - Tela Principal
-</figure> 
-
-            
+</figure>
 
 > **Links Úteis**:
 >
