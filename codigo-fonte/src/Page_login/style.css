@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: E6E6E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    border-radius: 20px;
+
+}
+
+.card-login > h1{
+    font-weight: 800;
+    margin: 30px;
+    font-family: 'Inter', sans-serif;
+    
+        
+}
+.underline {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgba(108, 99, 255, 1);
+    border-radius: 5px;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border-color: rgba(241, 219, 180, 1);
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 12pt;
+    margin-bottom: 35px;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 7px 0px;
+    margin: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: larger;
+    color: white;
+    background-color: rgba(108, 99, 255, 1);
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-bottom: 50px
+}
+
+.btn-create-acc{
+    width: 100%;
+    padding: 7px 0px;
+    margin: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: larger;
+    color: white;
+    background-color: rgba(108, 99, 255, 1);
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-top: 50px;
+}
