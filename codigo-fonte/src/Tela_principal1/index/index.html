@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devide-widht, initial-scaled=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/503c420a8f.js" crossorigin="anonymous"></script>
+   
+    <title> AppFinanceiro </title>
+ </head>
+ 
+<body> 
+  <header>
+        <div>
+        <div class="menu-header">
+          <div " class="menu"> 
+                <nav>
+                  <a href="">HOME</a> 
+                  <a href="">GRÁFICO</a>
+                </nav> 
+          </div>
+        <div class="icon-header">
+          <button><i class="fa-solid fa-circle-user"></i></button>
+        </div>
+        
+        </div>
+        </div>
+      </header>
+
+      <section>
+       <div>
+        <div class="mostrador-transacoes">
+          <div class="mostrador">
+                 <div class="texto">
+                   <h2>Entradas</h2>
+                   <p>R$12.000,00</p>
+                 </div>
+                   <i class="fa-solid fa-circle-arrow-up"></i>
+            </div>
+            <div class="mostrador">
+                  <div class="texto">
+                    <h2>Saídas</h2>
+                    <p>R$8.000,00</p>
+                  </div>
+                    <i class="fa-solid fa-circle-arrow-down"></i>
+            </div>
+    
+              <div class="mostrador">
+                  <div class="texto">
+                    <h2>Total</h2>
+                    <p>R$4.000,00</p>
+                  </div>
+                    <i class="fa-regular fa-dollar-sign"></i> 
+              </div>
+       </div>
+      </div>
+
+      </section>
+     
+      <section id="add-transaction">
+
+        <div >
+          <span><i class="ph ph-warning-circle"></i></span>
+          <a href="#" class="btn" onclick="Modal.open()">Nova Transação</a>
+        </div>
+        
+
+        <div >
+          <span><i class="ph ph-warning-circle"></i></span>
+          <input type="date" name="" id="date-transaction" class="btn">
+        </div>
+       
+       <div >
+          <span><i class="ph ph-warning-circle"></i></span>
+          <select name="tipo-entrada" id="tipo-entrada" class="btn">
+            <option value="entrada">Entrada</option>
+            <option value="saida">Saída</option>
+          </select>
+       </div>
+       
+      </section>
+     
+
+
+
+     <div class="componentes-retangulo">
+       <table> 
+           <tr>
+              <td><b>Data</b></td>
+              <td><b>Descrição</b></td>
+              <td><b>Valor</b></td>
+              <td><b>Tipo</b></td>
+              <td></td>
+            </tr>
+        </table>
+          <hr>
+        <table>   
+          <tr>
+              <td>04/04/2024</td>
+              <td>Salário</td>
+              <td>R$12.000,00</td>
+              <td><i style="color: green;" class="fa-solid fa-caret-up"></i></td>
+              <td><i class="fa-solid fa-trash-can"></i></td>
+          </tr>
+          <tr>
+              <td>04/04/2024</td>
+              <td>Financiamento</td>
+              <td>R$8.000,00</td>
+              <td><i style="color: red;" class="fa-solid fa-caret-down"></i></td>
+              <td><i class="fa-solid fa-trash-can"></i></td>
+          </tr> 
+        </table>
+     </div>
+  
+
+
+     <div class="modal-overlay ">
+      <div class="modal">
+        
+        <div id="form">
+          <h2> Nova Transação</h2>
+          <form action="">
+            
+            <div class="input-group">
+              <label for="description" class="sr-only"> Descrição</label>
+              <input type="text" id="description" name="description" placeholder="Descrição">
+            </div>
+
+            
+            <div class="input-group">
+              <label for="amount" class="sr-only"> Valor </label>
+              <input type="number" step="0.01" id="amount" name="amount" placeholder="0,00">
+              <small class="help"> Use o sinal - (negativo) para despesas e , (virgula) para cadas decimais</small>
+            </div>
+
+            
+            <div class="input-group">
+              <label for="date" class="sr-only"> Descrição</label>
+              <input type="date" id="date" name="date" placeholder="Data">
+            </div>
+
+            <div class="input-group actions">
+              <a href="#" class="btn cancel" onclick="Modal.close()"> Cancelar</a>
+              <button>Salvar</button>
+            </div>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+
+
+    <script>
+        let Modal = {
+          open(){
+            document.querySelector('.modal-overlay').classList.add("active")
+          },
+          close(){
+            document.querySelector('.modal-overlay').classList.remove("active")
+          }
+        }
+
+    </script>
+</body>
+</html>
