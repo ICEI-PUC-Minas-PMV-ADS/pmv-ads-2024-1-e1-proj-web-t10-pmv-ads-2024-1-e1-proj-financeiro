@@ -39,6 +39,24 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
   <figcaption> Figura 3 - Tela Principal
 </figure>
 
+<figure> 
+  <img src="/documentos/img/Tela_Menu_Lateral_Final.png">
+  <figcaption> Figura 4 - Tela Demonstrando o menu lateral
+</figure>
+
+<figure> 
+  <img src="/documentos/img/Tela_Funcionalidade_AddTransacoes.png">
+  <figcaption> Figura 5 - Tela Demonstrando a funcionalidade de adicionar novas transações atraves de abertura de um modal. 
+</figure>
+
+<figure> 
+  <img src="/documentos/img/Tela_Funcionalidade_Config_Perfil.png">
+  <figcaption> Figura 6 - Tela Demonstrando a funcionalidade de configuração de perfil. 
+</figure>
+
+
+
+
 > **Links Úteis**:
 >
 > - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
