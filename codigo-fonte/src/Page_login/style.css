@@ -43,9 +43,12 @@ body {
 }
 
 .card-login > h1{
-    font-weight: 800;
-    margin: 30px;
+    font-weight: 750;
+    margin: 0 0 30px 0;
     font-family: 'Inter', sans-serif;
+    text-align: left;
+    width: 100%;
+    font-size: 50px;
     
         
 }
@@ -63,10 +66,31 @@ body {
     align-items: flex-start;
     justify-content: center;
     margin: 10px 0px;
+    position: relative;
 }
 
 .textfield > input{
     width: 100%;
+    border-style: solid;
+    border-color: rgba(241, 219, 180, 1);
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 12pt;
+    margin-bottom: 35px;
+}
+
+.textfield-pass{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield-pass > input{
+    width: 100%;
+    border-style: solid; 
     border-color: rgba(241, 219, 180, 1);
     border-radius: 10px;
     padding: 15px;
@@ -76,14 +100,15 @@ body {
 
 .btn-login{
     width: 100%;
+    max-width: 300px;
     padding: 7px 0px;
     margin: none;
+    border: none;
     border-radius: 20px;
     outline: none;
     font-size: larger;
     color: white;
     background-color: rgba(108, 99, 255, 1);
-    outline: none;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
     margin-bottom: 50px
@@ -91,14 +116,15 @@ body {
 
 .btn-create-acc{
     width: 100%;
+    max-width: 300px;
     padding: 7px 0px;
     margin: none;
+    border: none;
     border-radius: 20px;
     outline: none;
     font-size: larger;
     color: white;
     background-color: rgba(108, 99, 255, 1);
-    outline: none;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
     margin-top: 50px;
