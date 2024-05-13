@@ -39,27 +39,27 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
   <figcaption> Figura 3 - Tela Principal
 </figure>
 
+ <h3>Tela Menu Lateral</h3>
+
+<br> Permite ao usuário acessar suas configurações de perfil.<br> 
 <figure> 
   <img src="/documentos/img/Tela_Menu_Lateral_Final.png">
   <figcaption> Figura 4 - Tela Demonstrando o menu lateral
 </figure>
+
+
+<h3> Modal Adicionando novas transações </h3>
+<br> Permite ao usuário ao clicar no botão de nova transação onde irá abrir uma modal.  
 
 <figure> 
   <img src="/documentos/img/Tela_Funcionalidade_AddTransacoes.png">
   <figcaption> Figura 5 - Tela Demonstrando a funcionalidade de adicionar novas transações atraves de abertura de um modal. 
 </figure>
 
+<h3> Tela Configuração de Perfil</h3>
+<br> Permite ao usuário realizar atualização de seu perfil como seu nome de usuário e nova senha.  <br>
+
 <figure> 
   <img src="/documentos/img/Tela_Funcionalidade_Config_Perfil.png">
   <figcaption> Figura 6 - Tela Demonstrando a funcionalidade de configuração de perfil. 
 </figure>
-
-
-
-
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
