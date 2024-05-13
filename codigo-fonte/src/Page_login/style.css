@@ -129,3 +129,10 @@ body {
     cursor: pointer;
     margin-top: 50px;
 }
+
+.divisoria {
+    width: calc(100% + 30px);
+    border: none;
+    border-top: 1px solid rgba(241, 219, 180, 1);
+    margin: 20px -15px 20px -15px; 
+}
