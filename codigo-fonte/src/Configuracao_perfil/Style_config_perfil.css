@@ -1,15 +1,15 @@
- body {background-color: #FFFFFF;
+body {background-color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
      }   
- button {background-color:#6C63FF;
- color: white;
- border-radius: 20px;
- border-color: transparent;
- padding: 11px;
- width: 425px;
- font-size: medium;
+button {background-color:#6C63FF;
+color: white;
+border-radius: 20px;
+border-color: transparent;
+padding: 11px;
+width: 425px;
+font-size: medium;
       }
- input{ 
+input{ 
     padding: 13px;
     outline: none;
     width: 390px;
@@ -18,18 +18,18 @@
     font-size: medium;
     border: groove;
     }
- h1 {position: fixed;
+h1 {position: fixed;
     top: 13%;
     left: 36%;
    }
- div{position: absolute;
+div{position: absolute;
     top: 32%;
     left: 34%;
    }
- hr {background-color: grey;
+hr {background-color: grey;
    }
- u  {text-decoration-line: underline;
+u  {text-decoration-line: underline;
     text-decoration-color: #6C63FF;
  }
- ::placeholder{color&#128274;
+::placeholder{color&#128274;
              }
