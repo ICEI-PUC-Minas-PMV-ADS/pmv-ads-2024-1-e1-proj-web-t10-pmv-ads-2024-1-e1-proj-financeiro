@@ -83,33 +83,30 @@
 
 
       </section>
-      <section>
+     
+      <section id="add-transaction">
 
-        <div>
-            <div class="bottom-funcoes">
-
-                <div class="bottom-ad">
-                  <h3>Adicionar</h3>
-                </div>
-
-             <div class="bottom-meses">
-                <div>  
-                  <h3>Meses</h3>
-                </div>
-                <img src="img/calendario.jpg" alt="" height="25px" width="25px">
-              </div>
-
-              <div class="bottom-tipo">
-                <div>
-                  <h3>Tipo</h3>
-                </div>
-              </div>
-            </div>  
+        <div >
+          <span><i class="ph ph-warning-circle"></i></span>
+          <a href="#" class="btn" onclick="Modal.open()">Nova Transação</a>
         </div>
+        
 
-
-
+        <div >
+          <span><i class="ph ph-warning-circle"></i></span>
+          <input type="date" name="" id="date-transaction" class="btn">
+        </div>
+       
+       <div >
+          <span><i class="ph ph-warning-circle"></i></span>
+          <select name="tipo-entrada" id="tipo-entrada" class="btn">
+            <option value="entrada">Entrada</option>
+            <option value="saida">Saída</option>
+          </select>
+       </div>
+       
       </section>
+     
       <section>
         <div>
           
@@ -171,21 +168,6 @@
              </div>
             </div>
           </section>
-            
-            
-
-           
-                       
-
-
-
-
-
-
-
-
-
-
         </div>
 
 
@@ -195,5 +177,55 @@
 
       </section>
     </main>
+
+
+
+    <div class="modal-overlay ">
+      <div class="modal">
+        
+        <div id="form">
+          <h2> Nova Transação</h2>
+          <form action="">
+            
+            <div class="input-group">
+              <label for="description" class="sr-only"> Descrição</label>
+              <input type="text" id="description" name="description" placeholder="Descrição">
+            </div>
+
+            
+            <div class="input-group">
+              <label for="amount" class="sr-only"> Valor </label>
+              <input type="number" step="0.01" id="amount" name="amount" placeholder="0,00">
+              <small class="help"> Use o sinal - (negativo) para despesas e , (virgula) para cadas decimais</small>
+            </div>
+
+            
+            <div class="input-group">
+              <label for="date" class="sr-only"> Descrição</label>
+              <input type="date" id="date" name="date" placeholder="Data">
+            </div>
+
+            <div class="input-group actions">
+              <a href="#" class="btn cancel" onclick="Modal.close()"> Cancelar</a>
+              <button>Salvar</button>
+            </div>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+
+
+    <script>
+        let Modal = {
+          open(){
+            document.querySelector('.modal-overlay').classList.add("active")
+          },
+          close(){
+            document.querySelector('.modal-overlay').classList.remove("active")
+          }
+        }
+
+    </script>
   </body>
   </html> 
