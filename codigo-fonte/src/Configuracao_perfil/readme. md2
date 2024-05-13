@@ -1,1 +1,35 @@
-v
+body {background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+     }   
+button {background-color:#6C63FF;
+color: white;
+border-radius: 20px;
+border-color: transparent;
+padding: 11px;
+width: 425px;
+font-size: medium;
+      }
+input{ 
+    padding: 13px;
+    outline: none;
+    width: 390px;
+    border-radius: 12px;
+    border-color: #ffe4c4a4;
+    font-size: medium;
+    border: groove;
+    }
+h1 {position: fixed;
+    top: 13%;
+    left: 36%;
+   }
+div{position: absolute;
+    top: 32%;
+    left: 34%;
+   }
+hr {background-color: grey;
+   }
+u  {text-decoration-line: underline;
+    text-decoration-color: #6C63FF;
+ }
+::placeholder{color&#128274;
+             }
