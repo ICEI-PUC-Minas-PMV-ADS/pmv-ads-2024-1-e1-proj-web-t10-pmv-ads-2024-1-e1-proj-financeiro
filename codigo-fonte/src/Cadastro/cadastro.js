@@ -24,6 +24,35 @@ function registrar() {
     alert("As senhas não coincidem.");
     return;
   }
+  if (primeiroNomeDigitado == "") {
+    alert("É necessário especificar o primeiro nome.");
+    return;
+  }
+
+  if (sobrenomeDigitado == "") {
+    alert("É necessário especificar o sobrenome.");
+    return;
+  }
+
+  if (emailDigitado == "") {
+    alert("É necessário especificar o e-mail.");
+    return;
+  }
+
+  if (usuarioDigitado == "") {
+    alert("É necessário especificar o usuário.");
+    return;
+  }
+
+  if (senhaDigitada == "") {
+    alert("É necessário especificar a senha.");
+    return;
+  }
+
+  if (confirmacaoDaSenhaDigitada == "") {
+    alert("É necessário especificar a confirmação da senha.");
+    return;
+  }
 
   for (let usuario of usuariosObjeto) {
     if (usuarioDigitado == usuario.usuario) {
