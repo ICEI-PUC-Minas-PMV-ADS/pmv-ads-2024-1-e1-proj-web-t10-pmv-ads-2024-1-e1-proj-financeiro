@@ -29,7 +29,7 @@ RF-08: A aplicação deverá permitir ao usuário cadastrar uma conta.
 
 #### Estrutura de Dados
 
-●[cadastro.html] https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-financeiro/blob/main/codigo-fonte/src/Cadastro/cadastro.html
+<a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-financeiro/blob/main/codigo-fonte/src/Cadastro/cadastro.html">Cadastro.html</a>
 
 #### Instruções de acesso
 
