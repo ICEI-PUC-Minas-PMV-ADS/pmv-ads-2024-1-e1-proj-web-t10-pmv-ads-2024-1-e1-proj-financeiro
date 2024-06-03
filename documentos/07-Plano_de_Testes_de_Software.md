@@ -20,7 +20,7 @@ Os requisitos para realização dos testes de software são:
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-01: Verificar o cadastro de usuários</td>
+  <td>CT-01: Verificar o cadastro de usuários.</td>
   <td>
    <ul>
     <li>RF-08:	O site deve permitir ao usuário cadastrar uma conta.</li>
@@ -36,7 +36,7 @@ Os requisitos para realização dos testes de software são:
     <li>Preencher o formulário e clicar em “Registrar”.</li>
    </ol>
    </td>
-  <td>Deve ocorrer uma validação das informações fornecidas pelo usuário, e ao clicar em "Registrar", deve aparecer a mensagem "Usuário registrado com sucesso!"..</td>
+  <td>Deve ocorrer uma validação das informações fornecidas pelo usuário, e ao clicar em "Registrar", deve aparecer a mensagem "Usuário registrado com sucesso!"</td>
   <td>Yasmin Maia</td>
  </tr>
 </table>
