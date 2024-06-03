@@ -4,6 +4,12 @@
 
 Os requisitos para realização dos testes de software são:
 
+<ul>
+<li>Aplicação publicada na internet.</li>
+<li>Navegador da internet: Chrome, Firefox ou Edge.</li>
+<li>Criar um login.</li>
+</ul>
+
 <table>
  <tr>
   <th>Caso de teste</th>
