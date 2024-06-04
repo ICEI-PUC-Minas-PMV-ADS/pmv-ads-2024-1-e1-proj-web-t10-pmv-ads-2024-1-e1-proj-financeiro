@@ -16,9 +16,15 @@ Responsável: Yasmin Maia.
   <figcaption> 
 </figure>
 
-<p>Se o registro do usuário foi bem sucedido.</p>
+<p>Verificar se o registro do usuário foi bem sucedido.</p>
 <figure> 
   <img src="/documentos/img/Validação_registro.png">
+  <figcaption> 
+</figure>
+
+<p>Informações armazenadas no LocalStorage após usuário se cadastrar.</p>
+<figure> 
+  <img src="/documentos/img/localStorage_Cadastro.png">
   <figcaption> 
 </figure>
 
