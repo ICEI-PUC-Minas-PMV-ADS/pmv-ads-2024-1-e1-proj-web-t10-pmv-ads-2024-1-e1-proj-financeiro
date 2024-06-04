@@ -15,4 +15,11 @@ Responsável: Yasmin Maia.
   <img src="/documentos/img/Validação_senha.png">
   <figcaption> 
 </figure>
+
+<p>Se o registro do usuário foi bem sucedido.</p>
+<figure> 
+  <img src="/documentos/img/Validação_registro.png">
+  <figcaption> 
+</figure>
+
 </li>
