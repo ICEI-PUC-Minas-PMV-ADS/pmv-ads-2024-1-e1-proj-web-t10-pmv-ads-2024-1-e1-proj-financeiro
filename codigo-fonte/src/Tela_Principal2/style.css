@@ -1,58 +1,38 @@
-:root{
-    
-    --color-primary: #6C63FF;
-    --color-font-btn :#fff;
-    --color-btn-hover:#3d37ad;
-    --color-border-btn: #F1DBB4;
-    --color-bg: #f0f2f5;
-    --color-font-icon-green:#0FA958;
-    --color-font-icon-red:#EC3232;
-    --color-font-dark: #494949;
+:root {
+    --dark-blue: #363f5f;
+    --white: #fff;
+    --light-green: #3dd705;
+    --red: #e92929;
 }
-  
 
 
-
-ul, 
-li, 
-p {
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
     list-style: none;
-    font-size: 1,2rem;
-    font-family: Arial;
+    color: #fff;
+    font-size: 18px;
 }
 
-body  {
-    background-color: #FFFFFF;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-}
-
-a {
-    text-decoration: none; 
-    color: #fff; 
-   
-}
 
 nav a:hover{
     transition: 0.5s;
     background: #e4e4e4;
     color: #776fff;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 3px;
+    
 }
 
 .menu {
     display: flex;
-    gap: 150px;
+    gap: 50px;
     margin-top: 10px;
-}
-
-
-h1 {
-    text-align: left;
-    margin-top: 100px;
+    margin-left: 35px;
+    
 }
 
 header {
@@ -60,292 +40,348 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: calc(5px 5px 5px);
+    
     padding: 20px;
     justify-items: right;
-}
-
-
-
-.menu-header {
-    display: flex;
-    justify-content: space-around;
-    word-spacing: 50px;
-    line-height:29.05px;
-    font-size: 24px;
-    color: #FFFFFF;
-}
-
- .icon {
-    color:gold;
-    justify-content: right;
     
+}
 
- }
+html {
+    font-size: 93.75%; /* 15px */
+}
 
+body {
+    background: #fff;
+    font-family:'Poppins', sans-serif
+}
 
- .mostrador {
-    display: flex; 
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.container {
+    width: min(90vw, 900px);
+    margin: auto;
+}
+
+/* Titles ===================== */
+h2 {
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--dark-blue);
+       font-weight: normal;
+}
+
+/* Links & Buttons ===================== */
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ec9d09f5;
+}
+
+button {
     width: 100%;
-    height: 100px;
-    background-color:#F8FbFF; 
-    margin: 40px;
-    margin-top: 50;
-    border-radius: 8px;
-    padding: 30px;
-    box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.25);
+    height: 50px;
 
- }
+    border: 2px #12a454 solid;
 
-.valor1 {
-color: rgb(16, 155, 58);
-font-weight: bold;
+    color: #12a454;
+    background: var(--green);
+
+    padding: 0;
+
+    border-radius: 0.25rem;
+
+    cursor: pointer;
 }
 
-.valor2 {
-color: rgb(233, 16, 16);
-font-weight: bold;
+button:hover {
+    background: #6c63ff;
+    color: #fff;
 }
 
-.valor3 {
-    color: black;
-    font-weight: bold;
+.button.new {
+    display: inline-block;
+    margin-bottom: .2rem;
 }
 
+.button.cancel {
+    color: var(--red);
+    border: 2px var(--red) solid;
+    border-radius: 0.25rem;
 
- .mostrador-transacoes {
+    height: 50px;
+
     display: flex;
-    border-radius: 8px;
-
-}
-
-.bottom-funcoes {    
-    width: 80%;
-    height: 134px;
-    color: #FFFFFF;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex; 
-    justify-content: space-between;
-    border-radius: 8px;
-
-
-}  
-
- .bottom-ad {
-    width: 253px;
-    height: 63.39px;
-    background-color: #6C63FF;
-    margin: 20px;
-    border-radius: 8px;
-    padding: 5px;
-    text-align: center;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    }
-
-    
-.bottom-meses {
-    display: flex;
-    width: 253px;
-    height: 63.39px;
-    background-color: #6C63FF;
-    margin: 20px;    
-    border-radius: 8px;
-    padding: 5px;
     align-items: center;
     justify-content: center;
-    gap: 15px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    opacity: 0.6;
 }
 
-.bottom-tipo {
-    width: 253px;
-    height: 63.39px;
-    background-color: #6C63FF;
-    margin: 20px;
-    border-radius: 8px;
-    padding: 5px;
+.button.cancel:hover {
+    opacity: 1;
+}
+
+/* Header ===================== */
+header {
+    background: #776fff;
+    padding: 2rem 0 2rem;
     text-align: center;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.table-responsive {
-    width: 90%;
-    height: 340px;
-    border-radius: 8px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px;
-    background-color: #ecebf1;
-    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25);
 }
 
-.retangulo-cabecalho {
-    width: 84%;
-    height: 10px;    
-    margin-left: auto;
-    margin-right: auto;
-    padding: 40px;       
+#logo {
+    color: #fff;
+    font-weight: 100;
 }
 
-.componentes-retangulo {
-    width: 100%;
+/* Balance ===================== */
+#balance {
+    margin-top: 9rem;
 }
 
-
-/*Add-Transaction =============== */
-
-#add-transaction {
-    display: flex;
-    gap: 20rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 8rem;
-}
-  
-#add-transaction a.btn{
-    display: inline-block;
-}
-  
-#add-transaction .btn {
-    background-color: var(--color-primary);
-  
-    text-decoration: none;
-  
-    font-size: 1.8rem;
-    color: var(--color-font-btn);
+#balance h2 {
+    color:white;
     
-    width: 20rem;
-    padding: 1.8rem ;
-  
-    border: none;
-    border-radius: .8rem;
-  
-    cursor: pointer;
-  
-    transition: background-color .5s;
 }
-  
-#add-transaction .btn:hover {
-    background-color: #322d8f;
-}
-  
-  /*MODAL ================*/
 
+/* Cards ===================== */
+.card {
+    background: #f8fbff;
+    padding: 2.5rem 2rem;
+    border-radius: 1.00rem;
+
+    margin-bottom: 2rem;
+
+    color: var(--dark-blue);
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.55);
+}
+
+.card h3 {
+    font-weight: bold;
+    font-size: 1.8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    white-space:nowrap;
+    margin-top: 1rem;
+}
+
+.card.total {
+    background: #f8fbff;
+    color: var(--dark-blue);
+}
+
+/* Imput ===================== */
+
+#input-control {   
+    margin-top: 3rem; 
+    align-items: center;
+    
+}
+
+#input-control h2 {
+    color:white;
+    
+}
+
+/* Small-Card ===================== */
+.small-card {
+    background: #6c63ff;
+    padding: 0.8rem 4.5rem;
+    border-radius: 0.50rem;   
+    margin-bottom: 3rem;
+
+
+    color: white;
+}
+
+.small-card h3 {
+    font-weight: normal;
+    font-size: 1.25rem;
+    
+    
+}
+
+.small-card a {
+    font-size: 1.5rem;
+    line-height: 1rem;
+    white-space:nowrap;
+    margin-top: 1rem;
+    width: 100px;
+    
+}
+
+/* Table ===================== */
+#transaction {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+#data-table {
+    width: 100%;
+    border-spacing: 0 0.5;
+    color: #000;
+}
+
+table th {
+    background: white;
+    font-weight: normal;
+    padding: 1rem 2rem;
+    text-align: left;
+    
+
+}
+
+table thead tr th:first-child, 
+table tbody tr td:first-child
+{
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+table thead tr th:last-child, 
+table tbody tr td:last-child{
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+table thead th {
+    background: #ecebf1;
+
+    font-weight: bold;
+    padding: 1rem 2rem;
+
+    text-align: left;
+}
+
+table tbody tr {
+    opacity: 0.7
+}
+
+table tbody tr:hover {
+    opacity: 3
+}
+
+table tbody td {
+    background:#ecebf1;
+    padding: 1rem 2rem;
+}
+
+td.description {
+    color: var(--dark-blue);
+}
+
+td.income {
+    color: #12a454;
+}
+
+td.expense {
+    color: #e92929;
+}
+
+/* Modal ===================== */
 .modal-overlay {
     width: 100%;
     height: 100%;
-  
-    background-color: rgba(0, 0, 0, .7);
-  
+
+    background-color: rgba(0, 0, 0, 0.7);
+
     position: fixed;
     top: 0;
-  
-    display: flex;
+
+    display:flex;
     align-items: center;
     justify-content: center;
-  
-    opacity: 0;
+    opacity: 1;
     visibility: hidden;
+   
+    z-index: 999;
 }
-  
+
 .modal-overlay.active {
     opacity: 1;
     visibility: visible;
 }
-  
+
 .modal {
-    background-color: #f0f2f5;
+    background: #F0F2f5;
     padding: 2.4rem;
-  
+
     position: relative;
-  
-    width: 90%;
-    max-width: 500px;
+    z-index: 1;
 }
-  
-  /*formulario Modal */
-  
+
+
+/* Form ===================== */
 #form {
     max-width: 500px;
-  
 }
-  
+
 #form h2 {
     margin-top: 0;
-    color: var(--color-primary);
 }
-  
-  
-  
-#form form input {
+
+input {
     border: none;
-    border-radius: 0.8rem;
-  
-    padding: 1rem;
-  
+    border-radius: 0.2rem;
+
+    padding: 0.8rem;
+
     width: 100%;
 }
-  
+
 .input-group {
     margin-top: 0.8rem;
 }
-  
-.input-group small {
+
+.input-group .help{
     opacity: 0.4;
 }
-  
+
 .input-group.actions {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-  
-.input-group.actions .btn, 
+
+.input-group.actions .button,
 .input-group.actions button {
-    width: 40%;
+    width: 48%;
 }
 
-  /*button modal */
-button {
-    width: 100%;
-    height: 50px;
-  
-    border: none;
-  
-    color: white;
-    background: var(--color-font-icon-green);
-  
-    padding: 0;
-  
-    text-decoration: none;
-    text-align: center;
-  
-    cursor: pointer;
-  
-    transition: background 0.5s;
-}
 
-button:hover {
-    background: #17dd73;
-}
-  
 
-.btn.cancel {
-    color: #EC3232;
-    text-decoration: none;
-  
-    border: 1px solid #EC3232;
-  
-    height: 50px;
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-    opacity: 0.6;
-    transition: opacity .5s;
-}
-  
-.btn.cancel:hover {
-    opacity: 1;
+/* Responsive ===================== */
+@media (min-width: 800px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    #balance {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4rem;
+    }
+
+    #input-control {
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        gap: 3rem;
+    }
 }
