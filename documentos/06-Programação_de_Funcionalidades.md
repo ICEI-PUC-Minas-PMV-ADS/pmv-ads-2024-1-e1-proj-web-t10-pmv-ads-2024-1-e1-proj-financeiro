@@ -33,6 +33,12 @@ RF-08: A aplicação deverá permitir ao usuário cadastrar uma conta.
 
 #### Instruções de acesso
 
-Abra um navegador de Internet e informe a seguinte URL: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-financeiro
+1.Abra um navegador de Internet e informe a seguinte URL: http://127.0.0.1:5501/codigo-fonte/src/Page_login/login.html
 
-Ao clicar em “Cadastre-se” na tela de login, o usuário será direcionado para a página de cadastro.
+2.Ao clicar em “Cadastre-se” na tela de login, o usuário será direcionado para a página de cadastro.
+
+3.Insira seus dados preenchendo os campos indicados e clique em "Registrar".
+
+4.Após o cadastro, clique no botão "Entrar" e será redirecionado a página de login
+
+5.Informe seu nome de usuário e senha cadastrados e terá acesso a página principal.
