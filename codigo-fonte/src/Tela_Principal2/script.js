@@ -1,4 +1,5 @@
 const Modal = {
+
     open(){
         // Abrir modal
         // Adicionar a class active ao modal
@@ -12,6 +13,7 @@ const Modal = {
         // fechar o modal
         // remover a class active do modal
         document
+
             .querySelector('.modal-overlay')
             .classList
             .remove('active')
@@ -20,6 +22,7 @@ const Modal = {
 
 const Storage = {
     get() {
+        
         return JSON.parse(localStorage.getItem("dev.finances:transactions")) || []
     },
 
