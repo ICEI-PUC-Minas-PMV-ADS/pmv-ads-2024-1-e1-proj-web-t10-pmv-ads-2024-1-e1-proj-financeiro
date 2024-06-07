@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: E6E6E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    border-radius: 20px;
+
+}
+
+.card-login > h1{
+    font-weight: 750;
+    margin: 0 0 30px 0;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    width: 100%;
+    font-size: 50px;
+    
+        
+}
+.underline {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgba(108, 99, 255, 1);
+    border-radius: 5px;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+    position: relative;
+}
+
+.textfield > input{
+    width: 100%;
+    border-style: solid;
+    border-color: rgba(241, 219, 180, 1);
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 12pt;
+    margin-bottom: 35px;
+}
+
+.textfield-pass{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield-pass > input{
+    width: 100%;
+    border-style: solid; 
+    border-color: rgba(241, 219, 180, 1);
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 12pt;
+    margin-bottom: 35px;
+}
+
+.btn-login{
+    width: 100%;
+    max-width: 300px;
+    padding: 7px 0px;
+    margin: none;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: larger;
+    color: white;
+    background-color: rgba(108, 99, 255, 1);
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-bottom: 50px
+}
+
+.btn-create-acc{
+    width: 100%;
+    max-width: 300px;
+    padding: 7px 0px;
+    margin: none;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: larger;
+    color: white;
+    background-color: rgba(108, 99, 255, 1);
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.divisoria {
+    width: calc(100% + 30px);
+    border: none;
+    border-top: 1px solid rgba(241, 219, 180, 1);
+    margin: 20px -15px 20px -15px; 
+}
