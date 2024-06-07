@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dev.finance$</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <ul class="menu">
+                <li><a href="">HOME</a></li>
+                <li><a href="">GRÁFICO</a></li>
+            </ul>
+                        
+            </div>
+        </nav>
+        <ul class="img-icon">
+        <img src="img/icon-person.jpeg" alt="" height="65px" width="65px">
+    </ul>
+    </header>
+
+    <main class="container">
+        <section id="balance">
+            <h2 class="sr-only">Balanço</h2>
+
+            <div class="card">
+                <h3>
+                    <span>
+                        Entradas
+                    </span>
+                    <img src="img/seta-verde.jpg" alt="Image de entradas">
+                </h3>
+                <p id="incomeDisplay">R$ 12.000,00</p>
+            </div>
+
+            <div class="card">
+                <h3>
+                    <span>
+                        Saídas
+                    </span>
+                    <img src="img/seta-vermelha.jpg" alt="Image de saídas">
+                </h3>
+                <p id="expenseDisplay">R$ 8.000,00</p>
+            </div>
+
+            <div class="card total">
+                <h3>
+                    <span>
+                        Total
+                    </span>
+                    <img src="img/sifrao.jpg" alt="Image de total">
+                </h3>
+                <p id="totalDisplay">R$ 4.000,00</p>
+            </div>
+
+        </section>    
+            <section id="input-control">
+                <div class="small-card">
+                    <h3>
+                        <span>                            
+                            <a href="#" 
+                            onclick="Modal.open()"
+                            class="button new">Adicionar</a>
+                        </span>
+                    </h3>
+
+                </div>
+
+                <div class="small-card">
+                    <h3>
+                        Meses
+                        <img src="img/calendario.jpg" alt="Image de saídas" height="25px" width="25px">
+                    </h3>
+                </div>
+
+                <div class="small-card">
+                    <h3>
+                        Descrição
+                    </h3>
+
+                </div>
+            </section>       
+
+        <section id="transaction">
+            <h2 class="sr-only">Transações</h2>                  
+
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                        <th>Tipo</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <div class="modal-overlay acitve">
+        <div class="modal">
+            <div id="form">
+                <h2>Adicionar</h2>
+                <form action="" onsubmit="Form.submit(event)">
+                    <div class="input-group">
+                        <label class="sr-only" for="description">Descrição</label>
+                        <input type="text" id="description" name="description" placeholder="Descrição" />
+                    </div>
+
+                    <div class="input-group">
+                        <label class="sr-only" for="amount">Valor</label>
+                        <input type="number" step="0.01" id="amount" name="amount" placeholder="0,00" />
+                        <small class="help">Use o sinal - (negativo) para despesas e , (vírgula) para casas
+                            decimais</small>
+                    </div>
+
+                    <div class="input-group">
+                        <label class="sr-only" for="date">Data</label>
+                        <input type="date" id="date" name="date" />
+                    </div>
+
+                    <div class="input-group actions">
+                        <a onclick="Modal.close()" href="#" class="button cancel">Cancelar</a>
+                        <button>Salvar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay">
+
+    </div>
+
+    
+       <script src="/script.js"></script>
+    
+</body>
+
+</html>

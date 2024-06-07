@@ -3,15 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="img/money.ico" type="image/x-icon">
 
     <title>Formulário de Cadastro</title>
   </head>
+   <script src="cadastro.js"></script>
   <body>
     <div class="container">
       <div class="form-image">
         <img
-          src="/assets/img/undraw_sign_up_n6im.svg"
+          src="img/undraw_sign_up_n6im.svg"
           alt="imagem"
         />
       </div>
@@ -22,24 +24,24 @@
               <h1>Cadastre-se</h1>
             </div>
             <div class="login-button">
-              <button><a href="#">Entrar</a></button>
+              <button><a href="../Page_login/login.html">Entrar</a></button>
             </div>
           </div>
           <div class="input-group">
             <div class="input-box">
-              <label for="firstname">Primeiro nome</label>
+              <label for="primeironome">Primeiro nome</label>
               <input
-                id="firtsname"
+                id = "primeironome"
                 type="text"
-                name="firstname"
+                name="primeironome"
                 placeholder="Digite seu primeiro nome"
                 required>
               
             </div>
 
             <div class="input-box">
-                <label for="lastname">Sobrenome</label>
-                <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                <label for="sobrenome">Sobrenome</label>
+                <input id="sobrenome" type="text" name="sobrenome" placeholder="Digite seu sobrenome" required>
             </div> 
 
             <div class="input-box">
@@ -53,17 +55,17 @@
              </div>
 
              <div class="input-box">
-                <label for="password">Senha</label>
-                <input id="password" type="password" name="password" placeholder="Crie uma senha" required>
+                <label for="senha">Senha</label>
+                <input id="senha" type="password" name="senha" placeholder="Crie uma senha" required>
                </div>
 
               <div class="input-box">
-                <label for="Confirmpassword">Confirmar senha</label>
-                <input id="Confirmpassword" type="password" name="Confirmpassword" placeholder="Confirme sua senha" required>
+                <label for="confirmacaoDaSenha">Confirmar senha</label>
+                <input id="confirmacaoDaSenha" type="password" name="confirmacaoDaSenha" placeholder="Confirme sua senha" required>
                </div> 
             </div>
             <div class="register-button">
-              <button><a href="#">Registrar</a></button>
+              <button onclick="registrar()" >Registrar</button>
            </div>
           </div>
 

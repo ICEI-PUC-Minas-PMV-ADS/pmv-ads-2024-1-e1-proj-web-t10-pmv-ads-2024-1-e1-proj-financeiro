@@ -1,12 +1,31 @@
-# Registro de Testes de Software
+# Registro de testes de Software
 
-Relatório com as evidências dos testes de software realizados na aplicação pela equipe, baseado no plano de testes pré-definido.
+<span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-financeiro/blob/main/documentos/07-Plano_de_Testes_de_Software.md"> Plano de testes de Software</a></span>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-financeiro/blob/main/documentos/04-Projeto_de_Interface.md"> Projeto de Interface</a>
 
-Os resultados dos testes funcionais realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste executado]
+Os testes funcionais realizados na aplicação web são descritos a seguir.
 
-|Caso de Teste    | CT-X - Título Caso de Teste |
-|:---|:---|
-| Resultados obtidos | Descrever resultados do teste  |
-| Responsável pela execução do caso de Teste | Nome do integrante da equipe |
+<ol>
+  <li>CT-01: Verificar o cadastro de usuários.
 
-[Inserir aqui as evidências de teste que podem ser apresentadas por print de telas ou por .gif de execução de teste]
+Responsável: Yasmin Maia.
+
+<p>Usuário preenche os campos "Senha" e "Confirmaçāo de Senha" com valores diferentes.</p>
+
+<figure> 
+  <img src="/documentos/img/Validação_senha.png">
+  <figcaption> 
+</figure>
+
+<p>Verificar se o registro do usuário foi bem sucedido.</p>
+<figure> 
+  <img src="/documentos/img/Validação_registro.png">
+  <figcaption> 
+</figure>
+
+<p>Informações armazenadas no LocalStorage após usuário se cadastrar.</p>
+<figure> 
+  <img src="/documentos/img/localStorage_Cadastro.png">
+  <figcaption> 
+</figure>
+
+</li>
