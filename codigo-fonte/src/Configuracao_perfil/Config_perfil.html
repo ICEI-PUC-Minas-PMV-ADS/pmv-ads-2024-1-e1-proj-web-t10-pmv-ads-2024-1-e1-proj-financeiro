@@ -2,21 +2,27 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="carolina content="width=device-width, initial-scale="1.0">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
-    <link rel="stylesheet" href="/codigo-fonte/src/Configuracao_perfil/Style_config_perfil.css"
-<head>
+    <link rel="stylesheet" href="index.css.css">
+</head>
 <body>
 <div>
     <h1> <p><u>Configurações de perfil</u></p></h1>
-    <input type="text" placeholder="&#128100 Usuário">
+    <form id="form">
+    <input type="text" id="usuario" placeholder="&#128100 Usuário" class="input required">
     <br><br>
-    <input type="password" placeholder="&#128274 Senha antiga">
+    <input type="password" id="senhaAntiga" placeholder="&#128274 Senha antiga" class="input required">
     <br><br>
-    <input type="password" placeholder="&#128274 Nova senha">
+    <input type="password" id="novaSenha" placeholder="&#128274 Nova senha" class="input required">
     <br><br>
     <hr>
-    <button>Salvar alterações</button>
+    <button type="submit">Salvar alterações</button>
+    </form>
 </div>  
+<div class="purple-bar">
+<P> HOME</P>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
