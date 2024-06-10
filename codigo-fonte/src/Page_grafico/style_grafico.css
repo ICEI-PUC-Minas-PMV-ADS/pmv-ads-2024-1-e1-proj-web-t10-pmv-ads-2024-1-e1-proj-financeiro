@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-blue: #363f5f;
+  --white: #fff;
+  --light-green: #3dd705;
+  --red: #e92929;
+  --color-primary: #6C63FF;
+--color-font-btn :#fff;
+--color-btn-hover:#3d37ad;
+--color-border-btn: #F1DBB4;
+--color-bg: #f0f2f5;
+--color-font-icon-green:#0FA958;
+--color-font-icon-red:#EC3232;
+--color-font-dark: #494949;
+}
+
+/* HEADER ============ */
+
+header {
+  background-color: var(--color-primary);
+  height: 6rem;
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  gap: 7.2rem;
+  list-style: none;
+  align-items: center;
+}
+
+header nav ul li a {
+  color: var(--color-font-btn);
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+
+  transition: color .7s;
+}
+
+header nav ul li a:hover{
+  color: var(--color-border-btn);
+}
+
+header #user_avatar .ph-user {
+  font-size: 3rem;
+  background-color: #3d37ad;
+  color: var(--color-border-btn);
+
+  border-radius: 999px;
+
+  padding: .8rem;
+
+  cursor: pointer;
+  transition: background-color .7s;
+}
+
+header #user_avatar .ph-user:hover{
+  background-color: #322d8f;
+}
+
+
+h1 {
+  color: var(--color-font-btn);
+  font-weight: 300;
+  font-size: 2.2rem;
+}
+
+h1 span {
+ font-size: 1.8rem;
+ color: var(--color-border-btn);
+ font-weight: 500;
+}
+
+html {
+  font-size: 67.5%; /* 15px */
+}
+
+.container {
+  width: min(90vw, 1050px);
+  margin: auto;
+}
+
+/*============ MAIN =====================*/
+
+main {
+  width: 50rem;
+
+  margin: 8rem;
+  display: grid;
+  place-items: center;
+}
