@@ -5,10 +5,28 @@
     <meta name="viewport"content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
     <link rel="stylesheet" href="index.css.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 <body>
+    <header>
+        <nav class="container">
+          <ul>
+            <li><h1>dev<span>.</span>finance<span>$</span></h1></li>
+            <li><a href="/codigo-fonte/src/Tela_Principal2/index.html">Home</a></li>
+            <li>
+              <a href="../Page_grafico/grafico.html">Grafico </a>
+              <span class="help-user">
+                <i class="ph ph-warning-circle"></i>
+
+              </span>
+            </li>
+          </ul>
+          <span id="user_avatar"><i class="ph ph-user"></i></span>
+        </nav>
+  </header>
+  
 <div>
-    <h1> <p><u>Configurações de perfil</u></p></h1>
+    <h2>Configurações de perfil</h2>
     <form id="form">
     <input type="text" id="usuario" placeholder="&#128100 Usuário" class="input required">
     <br><br>
@@ -20,9 +38,7 @@
     <button type="submit">Salvar alterações</button>
     </form>
 </div>  
-<div class="purple-bar">
-<P> HOME</P>
-</div>
+
 <script src="script.js"></script>
 </body>
 </html>
