@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (btnCreateAcc) {
         btnCreateAcc.addEventListener('click', () => {
-            window.location.href = 'cadastro.html';
+            window.location.href = '../Cadastro/cadastro.html';
         });
     }
 });
@@ -39,7 +39,7 @@ function realizarLogin() {
     if (usuarioEncontrado.senha === senhaDigitada) {
         alert("Login realizado com sucesso!");
         console.log('Login realizado com sucesso');
-        window.location.href = 'pagina_inicial.html';
+        window.location.href = '../Tela_principal2/index.html';
     } else {
         alert("Usuário ou senha incorretos.");
         console.log('Usuário ou senha incorretos');
