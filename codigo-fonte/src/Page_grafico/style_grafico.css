@@ -26,7 +26,7 @@
 
 header {
   background-color: var(--color-primary);
-  height: 6rem;
+  height: 8rem;
   display: flex;
   align-items: center;
 }
