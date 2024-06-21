@@ -10,71 +10,106 @@
   --light-green: #3dd705;
   --red: #e92929;
   --color-primary: #6C63FF;
---color-font-btn :#fff;
---color-btn-hover:#3d37ad;
---color-border-btn: #F1DBB4;
---color-bg: #f0f2f5;
---color-font-icon-green:#0FA958;
---color-font-icon-red:#EC3232;
---color-font-dark: #494949;
+  --color-font-btn: #fff;
+  --color-btn-hover: #3d37ad;
+  --color-border-btn: #F1DBB4;
+  --color-bg: #f0f2f5;
+  --color-font-icon-green: #0FA958;
+  --color-font-icon-red: #EC3232;
+  --color-font-dark: #494949;
 }
 
-
-
-body {
+html, body {
+  height: 100%;
   background-color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 button {
-  background-color: #6c63ff;
+  background-color: rgba(108, 99, 255, 1);
   color: white;
   border-radius: 20px;
-  border-color: transparent;
-  padding: 11px;
-  width: 425px;
-  font-size: medium;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  font-size: 15pt;
+  font-weight: lighter;
+  font-family: 'Poppins', sans-serif;
   cursor: pointer;
+  margin-top: 20px;
 }
+
 input {
-  padding: 13px;
+  padding: 15px;
   outline: none;
-  width: 390px;
-  border-radius: 12px;
-  border-color: #ffe4c4a4;
-  font-size: medium;
-  border: groove;
-}
-h2 {
-  position: fixed;
-  top: 256px;
-  font-size: 2.4rem;
-
-  color: var(--color-font-dark);
-  
+  width: 100%;
+  border-radius: 15px;
+  border: 2px solid rgba(241, 219, 180, 1);
+  font-size: 12pt;
+  margin-bottom: 35px;
 }
 
-
-div {
-  position: absolute;
-  top: 32%;
-  left: 34%;
+.perfil-config > h2 {
+  font-weight: 750;
+  margin: 0 0 30px 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 50px;
+  color: black;
+  width: 100%;
+  text-align: center;
 }
 
+.underline {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: rgba(108, 99, 255, 1);
+  border-radius: 5px;
+}
+
+.perfil-config {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  margin-top: 6rem; 
+  width: 100%;
+  max-width: 600px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.perfil-config input,
+.perfil-config button {
+  max-width: 100%; 
+}
 
 hr {
-  background-color: grey;
+  background-color: rgba(241, 219, 180, 1); 
+  width: 100%;
+  height: 1px; 
+  border: none; 
+  margin: 20px 0;
 }
 
 ::placeholder {
-  color: #128274;
+  color: #494949;
 }
+
 .purple-bar {
   width: 100%;
   height: 40px;
   background-color: #6c63ff;
-  top: 0%;
-  left: 0%;
+  top: 0;
+  left: 0;
 }
+
 .purple-bar p {
   color: white;
   margin-top: 9px;
@@ -84,16 +119,25 @@ hr {
 /* HEADER ============ */
 
 header {
+  width: 100%;
   background-color: var(--color-primary);
   height: 6rem;
   display: flex;
   align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  max-width: 1050px;
+  padding: 0 1rem;
 }
 
 header nav ul {
@@ -105,14 +149,13 @@ header nav ul {
 
 header nav ul li a {
   color: var(--color-font-btn);
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   font-weight: bold;
   text-decoration: none;
-
-  transition: color .7s;
+  transition: color 0.7s;
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover {
   color: var(--color-border-btn);
 }
 
@@ -120,34 +163,30 @@ header #user_avatar .ph-user {
   font-size: 3rem;
   background-color: #3d37ad;
   color: var(--color-border-btn);
-
   border-radius: 999px;
-
-  padding: .8rem;
-
+  padding: 0.8rem;
   cursor: pointer;
-  transition: background-color .7s;
+  transition: background-color 0.7s;
 }
 
-header #user_avatar .ph-user:hover{
+header #user_avatar .ph-user:hover {
   background-color: #322d8f;
 }
-
 
 h1 {
   color: var(--color-font-btn);
   font-weight: 300;
-  font-size: 2.2rem;
+  font-size: 2.0rem;
 }
 
 h1 span {
- font-size: 1.8rem;
- color: var(--color-border-btn);
- font-weight: 500;
+  font-size: 1.8rem;
+  color: var(--color-border-btn);
+  font-weight: 500;
 }
 
 html {
-  font-size: 67.5%; /* 15px */
+  font-size: 93.75%;
 }
 
 .container {
