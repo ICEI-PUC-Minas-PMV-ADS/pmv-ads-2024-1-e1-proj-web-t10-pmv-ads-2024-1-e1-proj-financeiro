@@ -20,7 +20,7 @@ let Menu_lateral = {
 }
 
 
-const valoresEntrada = localStorage.getItem('dev.finances:transactions');
+const valoresEntrada = localStorage.getItem('dev.finances:transactions') || [];
 let valoresObject = JSON.parse(valoresEntrada);
 console.log(valoresObject);
 
@@ -54,34 +54,52 @@ function criarArrayValores(valoresObject){
 criarArrayValores(valoresObject);
 mostrarDatas(valoresObject)
 
-
-
-
-
-
 // criando o grafico 
 
 const content = document.getElementsByClassName('chartJs');
 new Chart(content, {
   type: 'bar',
   data: {
-      labels: dataValores,
-      datasets: [
-        {
-          label: 'Entrada em Reais(R$)',
-          data: amountPositive,
-          borderWidth: 1,
-          backgroundColor : 'rgba(39, 174, 96, 0.65)'
-        },
-        {
-          label: 'Saída em Reais(R$)',
-          data: amountNegative,
-          borderWidth: 1,
-          backgroundColor : 'rgba(231, 76, 60,0.65)'
-        },
+    labels: dataValores,
+    datasets: [
+      {
+        label: 'Entrada em Reais(R$)',
+        data: amountPositive,
+        borderWidth: 1,
+        backgroundColor : 'rgba(39, 174, 96, 0.65)'
+      },
+      {
+        label: 'Saída em Reais(R$)',
+        data: amountNegative,
+        borderWidth: 1,
+        backgroundColor : 'rgba(231, 76, 60,0.65)'
+      },
+    ],
+    
+    
+    options: {
+      layout : {
+        padding : {
+          left :20,
+          right :20,
+          top :20,
+          bottom :20
+        }
+      },
+      title : {
+        display : true,
+        text :"fdfdd "
+      },
+    
+      legend: {
+        display : true,
+        position: 'bottom'
+      }
+    },
+  },
 
-      ]  
-  }
+  // Configuration options
+  
 })
 
 

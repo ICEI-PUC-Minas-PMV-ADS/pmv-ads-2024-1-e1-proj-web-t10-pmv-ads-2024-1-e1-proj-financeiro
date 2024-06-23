@@ -12,22 +12,25 @@ body {
 }
 
 .left-login{
-    width: 50vw;
+    width: 45vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    background-color:#6c63ff;
+    border-radius: 0 6rem 6rem 0;
 }
 
 .right-login{
-    width: 50vw;
+    width: 55vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px;
+    
 
 }
 
