@@ -20,6 +20,25 @@ const Modal = {
     }
 }
 
+let Modal_About = {
+    open() {
+      document.querySelector(".modal-About").classList.add("active");
+    },
+    close() {
+      document.querySelector(".modal-About").classList.remove("active");
+    },
+};
+  
+  
+let Menu_lateral = {
+    open() {
+      document.querySelector(".side-bar").classList.add("active");
+    },
+    close() {
+      document.querySelector(".side-bar").classList.remove("active");
+    },
+}
+
 const Storage = {
     get() {
         

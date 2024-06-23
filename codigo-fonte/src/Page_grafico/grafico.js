@@ -1,5 +1,25 @@
 // pegar os valores de entrada e saida do localStorage
 
+let Modal_About = {
+  open() {
+    document.querySelector(".modal-About").classList.add("active");
+  },
+  close() {
+    document.querySelector(".modal-About").classList.remove("active");
+  },
+};
+
+
+let Menu_lateral = {
+  open() {
+    document.querySelector(".side-bar").classList.add("active");
+  },
+  close() {
+    document.querySelector(".side-bar").classList.remove("active");
+  },
+}
+
+
 const valoresEntrada = localStorage.getItem('dev.finances:transactions');
 let valoresObject = JSON.parse(valoresEntrada);
 console.log(valoresObject);

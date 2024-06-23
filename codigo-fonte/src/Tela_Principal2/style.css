@@ -1,5 +1,6 @@
 /* Global ===================== */
 :root {
+  
     --dark-blue: #363f5f;
     --white: #fff;
     --light-green: #3dd705;
@@ -56,7 +57,7 @@ header nav ul {
   
 header nav ul li a {
     color: var(--color-font-btn);
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: bold;
     text-decoration: none;
 
@@ -68,7 +69,7 @@ header nav ul li a:hover{
 }
 
 header #user_avatar .ph-user {
-    font-size: 3rem;
+    font-size: 2rem;
     background-color: #3d37ad;
     color: var(--color-border-btn);
   
@@ -88,17 +89,17 @@ header #user_avatar .ph-user:hover{
 h1 {
     color: var(--color-font-btn);
     font-weight: 300;
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
   
 h1 span {
-   font-size: 1.8rem;
+   font-size: 1.6rem;
    color: var(--color-border-btn);
    font-weight: 500;
 }
 
 html {
-    font-size: 93.75%; /* 15px */
+    font-size: 62.5%; /* 15px */
 }
 
 body {
@@ -125,7 +126,6 @@ body {
 
 /* Titles ===================== */
 h2 {
-    margin-top: 3.2rem;
     margin-bottom: 0.8rem;
     color: var(--dark-blue);
     font-weight: normal;
@@ -405,6 +405,160 @@ input {
 .input-group.actions button {
     width: 48%;
 }
+
+/* MENU LATERAL ===============*/
+
+.side-bar {
+    width: 320px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background: rgba(0,0,0,0.5);
+    border-left: .6px solid rgba(0,0,0,0.1);
+  
+    transition:  0.6s ease;
+}
+  
+.side-bar.active {
+    right: 0;
+}
+  
+.side-bar .menu-lateral {
+   width: 100%;
+   margin-top:20rem;
+   position: absolute;
+}
+  
+.side-bar .ph-x{
+    font-size: 3rem;
+    color: var(--color-bg);
+  
+    position: relative;
+    top: 60px;
+    right: -25px;
+    
+    cursor: pointer;
+}
+  
+.side-bar .ph-x:hover {
+  transform: scale(1.5);
+    
+}
+  
+.side-bar .menu-lateral:nth-child(2){
+    list-style: none;
+}
+  
+.side-bar .menu-lateral #user_avatar i{
+    list-style: none;
+    text-align: center;
+    position: relative;
+    top: -90px;
+    right: -90px;
+    padding: 1rem;
+  
+    background-color: var(--color-bg);
+    border-radius: 9999px;
+  
+    font-size: 8rem;  
+}
+  
+  
+.side-bar .menu-lateral .item{
+    width: 100%;
+    list-style: none;
+    background: var(--color-bg);
+    padding: 1.6rem;
+    margin-bottom: 3rem;
+  
+    cursor: pointer;
+  
+    display: flex;
+    gap: 6rem;
+}
+  
+.side-bar .menu-lateral .item:hover{
+    background-color: var(--color-primary);
+    transition: .3s ease;
+    color: #f0f2f5;
+    
+}
+  
+.side-bar .menu-lateral .item i {
+    font-size: 20px;
+}
+  
+/* ======= modal sobre ========  */
+  
+.modal-About .modal {
+    max-width: 600px;
+    height: 450px;
+    text-align: justify;
+  
+    background: var(--color-bg);
+}
+  
+.modal-About .modal .ph-x  {
+    color:var(--color-font-dark);
+    top: -4px;
+    right: -480px;
+}
+  
+.modal-About .modal h2 {
+    margin-bottom: .6rem;
+    color: var(--color-primary);
+} 
+  
+.modal-About .modal h2 span {
+    color: var(--color-border-btn);
+}
+  
+.modal-About .modal p {
+    margin-bottom: 2rem;
+}
+  
+.modal-About .modal .list-group {
+    margin-left: 2rem;
+}
+  
+.modal-About .modal .list-group li {
+    margin-bottom: .6rem;
+}
+
+.modal-About {
+    width: 100%;
+    height: 100%;
+  
+    background-color: rgba(0, 0, 0, .7);
+  
+    position: fixed;
+    top: 0;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    opacity: 0;
+    visibility: hidden;
+}
+  
+.modal-About.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal .ph-x {
+    font-size: 3rem;
+    color: var(--color-bg);
+  
+    position: relative;
+    top: 60px;
+    right: -25px;
+    
+    cursor: pointer;
+}  
+
 
 
 
