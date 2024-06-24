@@ -99,13 +99,13 @@ Os requisitos para realização dos testes de software são:
   <td>
    <ol>
     <li>Fazer login.</li>
-    <li>              </li>
-    <li>               </li>
-    <li>                </li>
-    <li>                 </li>
-    <li>                  </li>
-     <li>                  </li>
-     <li>                  </li>
+    <li>Navegar até a página de inserção, preencher campos obrigatórios, submeter e verificar a listagem.</li>
+    <li>Navegar até a página de visualização e verificar a listagem de todas as transações.</li>
+    <li>Inserir transação, selecionar categoria relevante, submeter e verificar a categorização.</li>
+    <li>Navegar até a página de despesas mensais e verificar a separação por meses.</li>
+    <li>Navegar até a página de categorias de gastos e verificar as categorias com maiores gastos dos últimos 30 dias.</li>
+     <li>Navegar até a página de visualização, selecionar transação e verificar detalhes (data, hora, valor, destinatário e remetente).</li>
+     <li>Navegar até a página de visualização, selecionar transação, confirmar deleção e verificar a remoção.</li>
    </ol>
    </td>
   <td>Deve ocorrer uma validação das informações fornecidas pelo usuário, e ao clicar em "Incluir", deve aparecer  suas transações incluidas na tela.</td>
