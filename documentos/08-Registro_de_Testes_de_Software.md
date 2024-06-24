@@ -44,4 +44,22 @@ Responsável: Lucas Silva.
   <img src="./img/tela-login-teste.jpg">
   <figcaption> 
 </figure>
+
+<p>Mensagem de aviso para preencher todos os campos.</p>
+<figure> 
+  <img src="./img/JanelaModal.jpg">
+  <figcaption> 
+</figure>
+
+<p>Transação inserida com sucesso e adicionada a tabela.</p>
+<figure> 
+  <img src="./img/TransaçãoAdicionada.jpg">
+  <figcaption> 
+</figure>
+
+<p>Gráfico mostrando as transações.</p>
+<figure> 
+  <img src="./img/TransaçõesEmGrafico.jpg">
+  <figcaption> 
+</figure>
 </li>
