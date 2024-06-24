@@ -45,6 +45,11 @@ Responsável: Lucas Silva.
   <figcaption> 
 </figure>
 
+<ol>
+  <li>CT-03: Verificar funcionalidade da janela Modal e as transações adicionadas ao gráfico.
+
+Responsável: Rafael.
+
 <p>Mensagem de aviso para preencher todos os campos.</p>
 <figure> 
   <img src="./img/JanelaModal.jpg">
