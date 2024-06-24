@@ -42,12 +42,12 @@
   <div class="side-bar">
     <i class="ph ph-x" onclick="Menu_lateral.close()"></i>
     <div class="menu-lateral">
-      <li id="user_avatar"> <span><i class="ph ph-user"></i></span></li>
-      <li class="item"> <i class="ph ph-lock"></i> Admin </li>
-      <li class="item" onclick ="Modal_About.open()"><i class="ph ph-info"></i> Sobre</li>
-      <li class="item"><i class="ph ph-sign-out"></i> Sair </li>
+        <li id="user_avatar"> <span><i class="ph ph-user"></i></span></li>
+        <li class="item"> <a href="../Configuracao_perfil/Config_perfil.html" style="display: flex; align-items: center; gap: 1rem; color: var(--color-font-dark); text-decoration: none;"> <i class="ph ph-lock"></i> <span style="font-size: 1.6rem;">Admin</span> </a></li>
+        <li class="item"> <a href="../Page_login/login.html" style="display: flex; align-items: center; gap: 1rem; color: var(--color-font-dark); text-decoration: none;"> <i class="ph ph-sign-out"></i> <span style="font-size: 1.6rem;">Sair</span> </a></li>
+        <li class="item"> <a href="#" onclick="Modal_About.open()" style="display: flex; align-items: center; gap: 1rem; color: var(--color-font-dark); text-decoration: none;"> <i class="ph ph-info"></i> <span style="font-size: 1.6rem;">Sobre</span> </a></li>
     </div>
-  </div>
+</div>
   
   <div class="modal-About">
     <div class="modal">
