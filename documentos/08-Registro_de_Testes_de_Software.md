@@ -28,4 +28,15 @@ Responsável: Yasmin Maia.
   <figcaption> 
 </figure>
 
+<p>Tentativa de login sem usuário cadastrado.</p>
+<figure> 
+  <img src="./img/tentativaLogin.jpg">
+  <figcaption> 
+</figure>
+
+<p>Login realizado com sucesso após o cadasro do usuário.</p>
+<figure> 
+  <img src="./img/tela-login-teste.jpg">
+  <figcaption> 
+</figure>
 </li>
