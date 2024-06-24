@@ -111,8 +111,9 @@ const DOM = {
         <td class="description">${transaction.description}</td>
         <td class="${CSSclass}">${amount}</td>
         <td>
-            <img onclick="Transaction.add(${index})" src="./img/triangulo-verde.jpg" alt="Remover transação">
-            <img onclick="Transaction.add(${index})" src="./img/triangulo-vermelho.jpg" alt="Remover transação">
+            
+            <img onclick="Transaction.add(${index})" src="./img/triangulo-verde.jpg" alt="Adicionar transação">
+            <img onclick="Transaction.add(${index})" src="./img/triangulo-vermelho.jpg" alt="Adicionar transação">
         </td>
         
         <td>
