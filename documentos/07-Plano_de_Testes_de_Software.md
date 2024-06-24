@@ -83,17 +83,22 @@ Os requisitos para realização dos testes de software são:
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-03: Verificar a tela de transações.</td>
+  <td>CT-03: Verificar a tela principal.</td>
   <td>
    <ul>
     <li>RF-01: A aplicação deverá permitir ao usuário inserir seus registros de transações financeiras.</li>
     <li>RF-02: A aplicação deve apresentar registro de transações financeiras, incluindo despesas/receitas.</li>
+    <li>RF-03:A aplicação deve permitir ao usuário classificar as transações em categorias relevantes como, alimentação, moradia, transporte, etc. </li>
+    <li>RF-04:A aplicação deve mostrar ao usuário claramente suas despesas separadas por meses. </li>
+    <li>RF-05 A aplicação deve mostrar ao usuário categorias que tiveram maiores gastos nos últimos 30 dias.</li>
+    <li>RF-06 A Aplicação deve mostrar ao usuário informações detalhadas sobre cada transações ocorridas como: data, hora, valor, para quem e quem foi efetuado a transação </li>
+    <li> RF-10 A aplicação deverá permitir ao usuário deletar seus registros financeiros.</li>
    </ul>
   </td>
-  <td>Verificar se as transações estão sendo feitas corretamente. </td>
+  <td>Verificar todas as funcionalidades da tela principal. </td>
   <td>
    <ol>
-    <li>Acessar o navegador.</li>
+    <li>Fazer login.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Login.</li>
     <li>Clicar no botão "adicionar".</li>
