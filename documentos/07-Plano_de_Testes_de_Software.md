@@ -72,3 +72,37 @@ Os requisitos para realização dos testes de software são:
   <td>Lucas Silva</td>
  </tr>
 </table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-03: Verificar a tela de transações.</td>
+  <td>
+   <ul>
+    <li>RF-01: A aplicação deverá permitir ao usuário inserir seus registros de transações financeiras.</li>
+    <li>RF-02: A aplicação deve apresentar registro de transações financeiras, incluindo despesas/receitas.</li>
+   </ul>
+  </td>
+  <td>Verificar se as transações estão sendo feitas corretamente. </td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Login.</li>
+    <li>Clicar no botão "adicionar".</li>
+    <li>Preencher os campos necessários.</li>
+    <li>Clicar em "incluir".</li>
+   </ol>
+   </td>
+  <td>Deve ocorrer uma validação das informações fornecidas pelo usuário, e ao clicar em "Incluir", deve aparecer  suas transações incluidas na tela.</td>
+  <td>Ana Carolina</td>
+ </tr>
+</table>
+
