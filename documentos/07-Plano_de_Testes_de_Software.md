@@ -40,3 +40,35 @@ Os requisitos para realização dos testes de software são:
   <td>Yasmin Maia</td>
  </tr>
 </table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-02: Verificar a tela de login</td>
+  <td>
+   <ul>
+    <li>RF-08:	O site deve permitir ao usuário cadastrar uma conta.</li>
+    <li>RF-09:  A aplicação deverá permitir ao usuário fazer login com sua conta.</li>
+   </ul>
+  </td>
+  <td>Verificar se o login está sendo efetuado corretamente, e informar o usuário caso não.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Login.</li>
+    <li>Preencher campos de usuário e senha.</li>
+    <li>Criar uma nova conta, caso nao haja uma.</li>
+   </ol>
+   </td>
+  <td>Deve ocorrer uma validação das informações fornecidas pelo usuário. Caso as credenciais estiverem corretas, informar ao usuário e prosseguir para a tela principal. Caso não houver nenhum usuário registrado, informar ao usuário. Caso as credenciais estiverem incorretas, informar ao usuário.</td>
+  <td>Lucas Silva</td>
+ </tr>
+</table>
