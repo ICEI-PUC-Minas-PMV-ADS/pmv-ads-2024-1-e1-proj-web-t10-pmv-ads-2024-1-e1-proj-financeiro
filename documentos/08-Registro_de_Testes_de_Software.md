@@ -28,7 +28,9 @@ Responsável: Yasmin Maia.
   <figcaption> 
 </figure>
 
-<p>CT-02: Verificar o login de usuários.
+<ol>
+  <li>CT-02: Verificar o login de usuários.
+
 Responsável: Lucas Silva.
 
 <p>Tentativa de login sem usuário cadastrado.</p>
