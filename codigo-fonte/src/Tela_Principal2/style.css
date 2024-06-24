@@ -243,14 +243,12 @@ button:hover {
 
 /* Small-Card ===================== */
 .small-card {
-    width: 16rem;
-
+    width: 26rem;
     background: #6c63ff;
-    padding: 0.8rem 4.5rem;
+    padding: 0.8rem 3.5rem;
     border-radius: 0.50rem;   
     margin-bottom: 3rem;
-
-
+    position: absolute;
     color: white;
 }
 
@@ -263,8 +261,8 @@ button:hover {
 
 .small-card a {
     font-size: 1.5rem;
-    line-height: 1rem;
-    white-space:nowrap;
+    line-height: 0.5rem;
+    
     margin-top: 1rem;
     width: 100px;
     
@@ -587,6 +585,7 @@ input {
         display: grid;
         grid-template-columns: repeat(3, 2fr);
         justify-items: center;
+        margin-bottom: 100px;
         gap: 3rem;
     }
 }
