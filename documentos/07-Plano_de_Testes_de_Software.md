@@ -99,11 +99,13 @@ Os requisitos para realização dos testes de software são:
   <td>
    <ol>
     <li>Fazer login.</li>
-    <li>Informar o endereço do site.</li>
-    <li>Visualizar a página Login.</li>
-    <li>Clicar no botão "adicionar".</li>
-    <li>Preencher os campos necessários.</li>
-    <li>Clicar em "incluir".</li>
+    <li>              </li>
+    <li>               </li>
+    <li>                </li>
+    <li>                 </li>
+    <li>                  </li>
+     <li>                  </li>
+     <li>                  </li>
    </ol>
    </td>
   <td>Deve ocorrer uma validação das informações fornecidas pelo usuário, e ao clicar em "Incluir", deve aparecer  suas transações incluidas na tela.</td>
