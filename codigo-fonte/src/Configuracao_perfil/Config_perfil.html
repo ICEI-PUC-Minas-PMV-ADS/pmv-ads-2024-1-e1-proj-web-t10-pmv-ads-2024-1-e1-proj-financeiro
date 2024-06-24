@@ -6,38 +6,34 @@
     <title>Configuração de Perfil</title>
     <link rel="stylesheet" href="index.css.css">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-
     <link rel="shortcut icon" href="money.ico" type="image/x-icon">
-    <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav class="container">
-          <ul>
-            <li><h1>dev<span>.</span>finance<span>$</span></h1></li>
-            <li><a href="/codigo-fonte/src/Tela_Principal2/index.html">Home</a></li>
-            <li>
-              
-              <span class="help-user">
-                <i class="ph ph-warning-circle"></i>
-
-              </span>
-            </li>
-          </ul>
-          <span id="user_avatar" onclick="Menu_lateral.open()"><i class="ph ph-user"></i></span>
+            <ul>
+                <li><h1>dev<span>.</span>finance<span>$</span></h1></li>
+                <li><a href="/codigo-fonte/src/Tela_Principal2/index.html">Home</a></li>
+                <li>
+                    <span class="help-user">
+                        <i class="ph ph-warning-circle"></i>
+                    </span>
+                </li>
+            </ul>
+            <span id="user_avatar" onclick="Menu_lateral.open()"><i class="ph ph-user"></i></span>
         </nav>
-  </header>
+    </header>
 
-  
     <div class="perfil-config">
         <h2><span class="underline">Confi</span>guração de perfil</h2>
-        <input type="text" id="usuario" placeholder="Usuário" class="input required">
-        <input type="password" id="senhaAntiga" placeholder="Senha antiga" class="input required">
-        <input type="password" id="novaSenha" placeholder="Nova senha" class="input required">
-        <hr>
-        <button type="submit">Salvar alterações</button>
+        <form id="form">
+            <input type="text" id="usuario" placeholder="Usuário" class="input required">
+            <input type="password" id="senhaAntiga" placeholder="Senha antiga" class="input required">
+            <input type="password" id="novaSenha" placeholder="Nova senha" class="input required">
+            <hr>
+            <button type="submit">Salvar alterações</button>
+        </form>
     </div>  
 
     <script src="script.js"></script>
