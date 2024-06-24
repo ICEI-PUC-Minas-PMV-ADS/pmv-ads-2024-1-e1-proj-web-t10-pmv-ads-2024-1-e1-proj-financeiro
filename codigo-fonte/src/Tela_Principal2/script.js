@@ -20,6 +20,25 @@ const Modal = {
     }
 }
 
+let Modal_About = {
+    open() {
+      document.querySelector(".modal-About").classList.add("active");
+    },
+    close() {
+      document.querySelector(".modal-About").classList.remove("active");
+    },
+};
+  
+  
+let Menu_lateral = {
+    open() {
+      document.querySelector(".side-bar").classList.add("active");
+    },
+    close() {
+      document.querySelector(".side-bar").classList.remove("active");
+    },
+}
+
 const Storage = {
     get() {
         
@@ -92,8 +111,9 @@ const DOM = {
         <td class="description">${transaction.description}</td>
         <td class="${CSSclass}">${amount}</td>
         <td>
-            <img onclick="Transaction.add(${index})" src="./img/triangulo-verde.jpg" alt="Remover transação">
-            <img onclick="Transaction.add(${index})" src="./img/triangulo-vermelho.jpg" alt="Remover transação">
+            
+            <img onclick="Transaction.add(${index})" src="./img/triangulo-verde.jpg" alt="Adicionar transação">
+            <img onclick="Transaction.add(${index})" src="./img/triangulo-vermelho.jpg" alt="Adicionar transação">
         </td>
         
         <td>

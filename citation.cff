@@ -1,0 +1,26 @@
+message: Please cite this software using these metadata.
+title: Prevenir Gestão de Biblioteca
+authors:
+  - family-names: Carolina Alves de Sousa
+    given-names: Ana
+  - family-names:  Maria Nunes de Aguiar
+    given-names: Angélica
+  - family-names: Aparecida Silva
+    given-names: Elenice
+  - family-names: Santiago Plínio
+    given-names: Lucas 
+  - family-names:  Junior Martins
+    given-names: Rafael
+  - family-names:  Maia Trindade
+    given-names: Yasmin
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names:  Azevedo Nigri do Carmo
+    given-names: Humberto
+keywords:
+  - Gestão
+  - Financeiro
+  - Dinheiro
+repository-code:https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-financeiro
+version: 1.0.0
+date-released: 2024-06-23

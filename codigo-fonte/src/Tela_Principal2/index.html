@@ -13,8 +13,8 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
         rel="stylesheet">
 
-        <script src="../Tela_Principal2/script.js" defer></script>
-        <link rel="shortcut icon" href="img/money.ico" type="image/x-icon">
+    <script src="../Tela_Principal2/script.js" defer></script>
+    <link rel="shortcut icon" href="img/money.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -30,9 +30,9 @@
               </span>
             </li>
           </ul>
-          <span id="user_avatar"><i class="ph ph-user"></i></span>
+          <span id="user_avatar"  onclick="Menu_lateral.open()"><i class="ph ph-user"></i></span>
         </nav>
-      </header>
+    </header>
 
     <main class="container">
         <section id="balance">
@@ -75,22 +75,8 @@
                         <span>                            
                             <a href="#" 
                             onclick="Modal.open()"
-                            class="button new">Adicionar</a>
+                            class="button new">Transações</a>
                         </span>
-                    </h3>
-
-                </div>
-
-                <div class="small-card">
-                    <h3>
-                        Meses
-                        <img src="img/calendario.jpg" alt="Image de saídas" height="25px" width="25px">
-                    </h3>
-                </div>
-
-                <div class="small-card">
-                    <h3>
-                        Descrição
                     </h3>
 
                 </div>
@@ -146,6 +132,34 @@
             </div>
         </div>
     </div> 
+
+    <div class="side-bar">
+        <i class="ph ph-x" onclick="Menu_lateral.close()"></i>
+        <div class="menu-lateral">
+            <li id="user_avatar"> <span><i class="ph ph-user"></i></span></li>
+            <li class="item"> <a href="../Configuracao_perfil/Config_perfil.html" style="display: flex; align-items: center; gap: 1rem; color: var(--color-font-dark); text-decoration: none;"> <i class="ph ph-lock"></i> <span style="font-size: 1.6rem;">Admin</span> </a></li>
+            <li class="item"> <a href="../Page_login/login.html" style="display: flex; align-items: center; gap: 1rem; color: var(--color-font-dark); text-decoration: none;"> <i class="ph ph-sign-out"></i> <span style="font-size: 1.6rem;">Sair</span> </a></li>
+            <li class="item"> <a href="#" onclick="Modal_About.open()" style="display: flex; align-items: center; gap: 1rem; color: var(--color-font-dark); text-decoration: none;"> <i class="ph ph-info"></i> <span style="font-size: 1.6rem;">Sobre</span> </a></li>
+        </div>
+    </div>
+      
+      <div class="modal-About">
+        <div class="modal">
+          <i class="ph ph-x" onclick="Modal_About.close()"></i>
+          <h2> Dev.Finance<span>$</span></h2>
+          <p>O Devi.Finance tem como objetivo geral permitir aos usuarios administrar suas finanças, atraves de tabelas e graficos. Afim de, ajudar a sairem das dividas.
+          <br>  <br>Abaixo se encontram os responsaveis pelo Desenvolvimento deste projeto.      
+          </p>
+          <ul class="list-group">
+            <li>Ana Carolina Alves de Sousa </li>
+            <li> Angélica Maria Nunes de Aguiar</li>
+            <li>Elenice Aparecida Silva</li>
+            <li>Lucas Santiago Plínio</li>
+            <li>Rafael Junior Martins </li>
+            <li> Yasmin Maia Trindade</li>
+          </ul>
+        </div>
+      </div>
 </body>
 
 </html>
